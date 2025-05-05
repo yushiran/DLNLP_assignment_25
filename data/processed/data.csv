@@ -1,0 +1,397 @@
+FL Character,《Zitie》Sequence,Corresponding Chinese Character,Jiangyong Dialect Pronunciation,font_path
+𛅰,0,一,i5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅰.jpg
+𛅱,1,两日入二,na33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅱.jpg
+𛅲,2,傺错七,tsha5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅲.jpg
+𛅳,3,人,ie21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅳.jpg
+𛅴,4,八,poe5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅴.jpg
+𛅵,5,十事实侍拾莳是誓,swe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅵.jpg
+𛅶,6,标蜂漂飘批披喷片骗,phiu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅶.jpg
+𛅷,7,约雨宇羽舞屋武,u5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅷.jpg
+𛅸,8,水,cya35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅸.jpg
+𛅹,9,了礼弟帝吊调丫,tie42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅹.jpg
+𛅺,10,内义要语宜仪谊议意遗蚁以认忍耳,njie33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅺.jpg
+𛅻,11,大代袋待怠台抬,toe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅻.jpg
+𛅼,12,尺嘱烛却,tchye5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅼.jpg
+𛅽,13,下吓化,fwe13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅽.jpg
+𛅾,14,朝犁低刁雕,liu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅾.jpg
+𛅿,15,小细笑洗息夕削叔送宋宿,siu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛅿.jpg
+𛆀,16,土,thu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆀.jpg
+𛆁,17,女,njyu13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆁.jpg
+𛆂,18,文闻,vai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆂.jpg
+𛆃,19,坑间工公跟竿功更根庚耕,kai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆃.jpg
+𛆄,20,寸可靠壳扩考介戒界狗苟稿确,khau21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆄.jpg
+𛆅,21,界介顾个告够过,kou21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆅.jpg
+𛆆,22,者九久韭酒守,tciou35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆆.jpg
+𛆇,23,两二,liang35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆇.jpg
+𛆈,24,向上食,ciang13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆈.jpg
+𛆉,25,干千签迁,tsheng44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆉.jpg
+𛆊,26,三,song44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆊.jpg
+𛆋,27,没,ma5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆋.jpg
+𛆌,29,辉挥坏灰非飞饭翻番反费虽,fa44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆌.jpg
+𛆍,28,知泪虑立利粒单丹,la44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆍.jpg
+𛆎,31,太,thoe21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆎.jpg
+𛆏,32,才财裁,tsoe42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆏.jpg
+𛆐,33,蝦括骨刮发,fwe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆐.jpg
+𛆑,34,此翅池子只纸指旨紫趾仔崽,tswe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆑.jpg
+𛆒,35,称曾了拉弄弟刀动低洞第得灯登滴冻凳待带铜腾替驼潭,ti13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆒.jpg
+𛆓,36,戏习世势逝,ci21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆓.jpg
+𛆔,37,夫傅,fu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆔.jpg
+𛆕,38,补火幅府妇,fu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆕.jpg
+𛆖,39,贺祸户互父妇负富腐咐付赋附福服伏,fu13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆖.jpg
+𛆗,40,主煮矩举,tcyu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆗.jpg
+𛆘,41,嘴句,tcyu21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆘.jpg
+𛆙,42,扮婚昏魂患纷分封坟份粉粪风睡,fai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆙.jpg
+𛆚,43,口考肯好候,hau35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆚.jpg
+𛆛,44,斗抖到,lou35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆛.jpg
+𛆜,45,六略,liou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆜.jpg
+𛆝,46,筹抽昼州周洲咒交旧娇绞教救较究舅纠求球丘,tciou44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆝.jpg
+𛆞,47,丑手首守,ciou35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆞.jpg
+𛆟,48,串劝,tchyn21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆟.jpg
+𛆠,49,方芳风封丰妨逢凤番翻,fang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆠.jpg
+𛆡,50,亡忘,vang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆡.jpg
+𛆢,51,葬算丧蒜,sang33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆢.jpg
+𛆣,52,看炕靠叩扣孔勘砍扛杠贯杆干,khang21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆣.jpg
+𛆤,54,天汤通贪,theng44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆤.jpg
+𛆥,53,年侬然燃,neng44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆥.jpg
+𛆦,55,并兵变豹朝井平瓶拼聘桥茄其奇棋,piong13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆦.jpg
+𛆧,56,赢园元圆源缘原员援院愿荣王完玩,iong42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆧.jpg
+𛆨,57,味位未谓为万湾弯威卫,va33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆨.jpg
+𛆩,30,亏垮屈,khua44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆩.jpg
+𛆪,58,吹,tchya33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆪.jpg
+𛆫,60,内嫩,nie33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆫.jpg
+𛆬,61,处对兑队堆顿凳,lie21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆬.jpg
+𛆭,62,真针珍贞斟征金今襟斤巾筋惊徽沈,tcie44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆭.jpg
+𛆮,63,称,tchie44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆮.jpg
+𛆯,64,个夜亦要,njie44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆯.jpg
+𛆰,65,泥银吟,njie42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆰.jpg
+𛆱,66,吃系音阴因姻殷忆与裕依医衣要以已孕荫于妖腰语药叶易应遗喻瑜幼意任如儒污,ie44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆱.jpg
+𛆲,67,吃任,ie33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆲.jpg
+𛆳,68,不未,mwe13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆳.jpg
+𛆴,71,会丫约要曰,vwe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆴.jpg
+𛆵,69,划压鸭,vwe5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆵.jpg
+𛆶,70,他曲,twe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆶.jpg
+𛆷,72,之滋支,tswe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆷.jpg
+𛆸,73,匙时,swe42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆸.jpg
+𛆹,74,赐士是氏仕十事实侍师诗尸狮视市示史,swe13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆹.jpg
+𛆺,75,主爪己几纪举缴,tci35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆺.jpg
+𛆻,111,彻喜枕种肿紧锦少起砌,ci35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆻.jpg
+𛆼,76,一以叶,i5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆼.jpg
+𛆽,77,猪绿料旅驴,liu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆽.jpg
+𛆾,78,尿,njiu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆾.jpg
+𛆿,79,少稍,ciu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛆿.jpg
+𛇀,80,母马木目墓麦磨麻亩牡,mu13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇀.jpg
+𛇁,81,拿夜又也右佑亦忧要匀若,yu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇁.jpg
+𛇂,82,翠去趣欺取娶区,tchy21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇂.jpg
+𛇃,83,月遇外,njy33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇃.jpg
+𛇄,84,余移欲愚与入如,y42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇄.jpg
+𛇅,85,本表,pai35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇅.jpg
+𛇆,89,惭正帐政转整诊拯镜敬竟卷眷京惊渐颈景井警,pai35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇆.jpg
+𛇇,87,怜林淋麟劳僚,lai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇇.jpg
+𛇈,86,日入儿而尔恩,ai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇈.jpg
+𛇉,88,口肯好搞,hau35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇉.jpg
+𛇊,90,脑投头套,tou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇊.jpg
+𛇋,91,柳流留刘榴溜,liou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇋.jpg
+𛇌,92,后後,iou13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇌.jpg
+𛇍,94,作左,tsew35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇍.jpg
+𛇎,93,坐做作综,tsew21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇎.jpg
+𛇏,95,生山甥牲笙衫梭馊腮,suow44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇏.jpg
+𛇐,97,行闲相杏限幸还衡烦,huow42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇐.jpg
+𛇑,96,反,huow35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇑.jpg
+𛇒,148,外稳,nguw33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇒.jpg
+𛇓,98,眉忙茫蒙盲瞒迷眯蛮,mang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇓.jpg
+𛇔,101,汤,thang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇔.jpg
+𛇕,99,间减烘光官刚功肝冠钢干冈甘棺岗缸柑观公关馆赶敢管感广杆,kang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇕.jpg
+𛇖,100,亮谅量,liang33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇖.jpg
+𛇗,102,长撑掌讲,tciang35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇗.jpg
+𛇘,103,娘,njiang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇘.jpg
+𛇙,105,便边鞭辫片偏,peng44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇙.jpg
+𛇚,104,先仙鲜,seng44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇚.jpg
+𛇛,107,丙评平瓶,piong42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇛.jpg
+𛇜,106,听,tshiong21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇜.jpg
+𛇝,108,占见建敬件,tcing21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇝.jpg
+𛇞,109,笔,pa5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇞.jpg
+𛇟,110,知立泪虑厉利笠雷,la33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇟.jpg
+𛇠,123,此齿刺次写些伞省且,sie35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇠.jpg
+𛇡,394,毑,tcie35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇡.jpg
+𛇢,395,个派,ie21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇢.jpg
+𛇣,113,报被拜摆跛败拔沸皮,poe21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇣.jpg
+𛇤,115,来,loe42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇤.jpg
+𛇥,116,在再载债灾栽,tsoe13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇥.jpg
+𛇦,117,采插踩煞杀刹死,soe5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇦.jpg
+𛇧,118,揩街阶皆架价嫁介乖该改盖告怪,koe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇧.jpg
+𛇨,119,快块,khuoe21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇨.jpg
+𛇩,120,忧夜运野益闰惹弱,ye21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇩.jpg
+𛇪,121,把白吧便变拍培,pwe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇪.jpg
+𛇫,122,百佰柏北拔拨缽迫拍泼,pwe5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇫.jpg
+𛇬,124,既气弃契,tchi21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇬.jpg
+𛇭,125,除厨住柱助足聚樵,tsiu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇭.jpg
+𛇮,126,鞋和何蝴荷胡豪毫耗芙扶,fu42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇮.jpg
+𛇯,129,嬷禾和雨鹅无武乌,vu42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇯.jpg
+𛇰,127,苦枯虎湖古果鼓股故过固,khu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇰.jpg
+𛇱,128,哭屋,hu5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇱.jpg
+𛇲,130,拨背杯变卜霸妇陪拍怕帕配赔聘,pw13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇲.jpg
+𛇳,131,华回费,fw42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇳.jpg
+𛇴,135,曾侄色塞是始使适宿,sw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇴.jpg
+𛇵,132,滑葛割物,kw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇵.jpg
+𛇶,133,开孩害,hw44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇶.jpg
+𛇷,134,门民毛眉闻,mai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇷.jpg
+𛇸,136,吞,thai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇸.jpg
+𛇹,137,辛心新森,sai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇹.jpg
+𛇺,138,悯心新,sai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇺.jpg
+𛇻,139,讨,thau35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇻.jpg
+𛇼,140,老到倒斗道稻凳汪,lau21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇼.jpg
+𛇽,112,老到凳,lau21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇽.jpg
+𛇾,114,明名鸣哪抛,nou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇾.jpg
+𛇿,141,阁搁罐,kou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛇿.jpg
+𛈀,142,休收岸,ciou44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈀.jpg
+𛈂,143,吵所锁,sew35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈂.jpg
+𛈁,144,落洛丹多单,lew44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈁.jpg
+𛈃,145,炭,thuow21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈃.jpg
+𛈄,146,万湾弯,uow33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈄.jpg
+𛈅,147,甲嘉价国隔格寡股果滚,kuw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈅.jpg
+𛈆,149,传程呈缠全权泉乾拳,tcyn42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈆.jpg
+𛈇,150,映院苑影,yn35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈇.jpg
+𛈈,151,忘望枉妄汪,vang33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈈.jpg
+𛈉,152,床藏庄妆装宗桩状撞浅,tsang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈉.jpg
+𛈊,153,栅双霜桑酸丧,sang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈊.jpg
+𛈋,155,孔,khang35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈋.jpg
+𛈌,154,中章终张忠专涨樟江姜疆恭宫刚钢公共供弓,tciang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈌.jpg
+𛈍,156,用养样央让,iang13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈍.jpg
+𛈎,157,垫田,teng42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈎.jpg
+𛈏,158,念闹怒哪内侬炼练联验砚艳研,neng33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈏.jpg
+𛈐,159,病兵篇拼,piong33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈐.jpg
+𛈑,160,命,miong33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈑.jpg
+𛈒,161,成城诚船悬凡盛,ciong42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈒.jpg
+𛈓,162,圣,ciong21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈓.jpg
+𛈔,163,言然,njing42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈔.jpg
+𛈕,164,暗案邀颜岩硬五碗我位,ng13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈕.jpg
+𛈖,165,早姊走澡盏者,tsa35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈖.jpg
+𛈗,166,四散晒瘦扫,sa21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈗.jpg
+𛈘,167,归规龟关,kua44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈘.jpg
+𛈙,168,鬼癸诡,kua35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈙.jpg
+𛈚,59,出,cya5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈚.jpg
+𛈛,170,兴申身深升伸剩,cie44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈛.jpg
+𛈜,171,派,phoe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈜.jpg
+𛈝,172,怀,foe42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈝.jpg
+𛈞,173,辣俫,loe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈞.jpg
+𛈟,182,猜差,tshoe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈟.jpg
+𛈠,174,菜蔡,tshoe21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈠.jpg
+𛈡,175,衣,oe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈡.jpg
+𛈢,211,扯蠢托拖牵,tchye35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈢.jpg
+𛈣,176,蝦夏花话灰悔画,fwe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈣.jpg
+𛈤,177,自字之枝脂姿滋兹支只贼制则寺,tswe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈤.jpg
+𛈥,169,逆孽泥业热,ni33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈥.jpg
+𛈦,178,切,tshi5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈦.jpg
+𛈧,179,妾,tshi5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈧.jpg
+𛈨,180,西犀消肖宵逍毫妻凄,si44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈨.jpg
+𛈩,181,合喝服伏付赴务,fu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈩.jpg
+𛈻,183,我瓦,ngu13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈻.jpg
+𛈫,185,处,tchyu21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈫.jpg
+𛈬,184,书输舒树赎粟,cyu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈬.jpg
+𛈭,186,譬佩迫配,phw21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈭.jpg
+𛈮,187,魂坟,fai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈮.jpg
+𛈯,188,长重皂尽进祭讲,tsai13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈯.jpg
+𛈰,189,牛楼劳,lou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈰.jpg
+𛈱,192,座浊昨作,tsou5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈱.jpg
+𛈲,190,包胞剥饱抛,piou44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈲.jpg
+𛈳,191,茅卯苗酉,miou13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈳.jpg
+𛈴,193,臭,tchiou21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈴.jpg
+𛈵,194,肉,njiou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈵.jpg
+𛈶,195,酉有友幼与,iou13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈶.jpg
+𛈷,198,难能,nuow42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈷.jpg
+𛈸,197,间更耕,kuow44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈸.jpg
+𛈹,196,喊,huow21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈹.jpg
+𛈺,200,半般帮搬伴啄饭放判胖,pang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈺.jpg
+𛈪,202,你恼,ang21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈪.jpg
+𛈼,205,像相纵丈将浆蒋匠,tsiang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈼.jpg
+𛈽,204,长从详祥墙,tsiang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈽.jpg
+𛈾,199,暖常尝偿雄熊裳,ciang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈾.jpg
+𛈿,206,阳羊杨扬洋容蓉绒融,iang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛈿.jpg
+𛉀,209,宁灵零龄论,liong42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉀.jpg
+𛉁,207,请,tshiong35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉁.jpg
+𛉂,208,兄声,ciong44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉂.jpg
+𛉃,210,显险掀现扇,cing35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉃.jpg
+𛉄,212,里理鲤李履懒裹旦,la13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉄.jpg
+𛉅,213,垂婿卷谁诉数睡述随虽,cya42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉅.jpg
+𛉆,214,排匹,poe42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉆.jpg
+𛉇,216,胎,thoe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉇.jpg
+𛉈,215,哪奈耐挪,noe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉈.jpg
+𛉉,271,钗差缠卷捐乾,tshoe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉉.jpg
+𛉊,217,宅助家加佳瓜,kue44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉊.jpg
+𛉨,218,假价驾寡,kue35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉨.jpg
+𛉌,219,揩嫁架价街皆阶挂怪卦乖,kue21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉌.jpg
+𛉍,220,爹云爷匀乌污,ye42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉍.jpg
+𛉎,221,比彼把宝保板壁被婢摆榜扳,pwe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉎.jpg
+𛉏,222,哑,vwe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉏.jpg
+𛉐,224,铁踢贴,thi5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉐.jpg
+𛉑,226,层蚕采赠斋尽进调齐樵,tsi42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉑.jpg
+𛉒,225,残惨祭娇济秦齐,tsi42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉒.jpg
+𛉓,227,绪制照兆赵站植占注计记季寄跽继既叫及忌纪桂直,tci21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉓.jpg
+𛉔,228,照赵种记寄,tci21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉔.jpg
+𛉕,229,跳剃替,tshiu21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉕.jpg
+𛉖,230,步薄抱部玻晡布博补夫腹甫婆蒲破铺扑,pu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉖.jpg
+𛉗,232,茶查锄搽,tsu42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉗.jpg
+𛉘,233,逼辣癞赖更顾告过故盖的推,ku21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉘.jpg
+𛉙,234,珠朱拄具,tcyu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉙.jpg
+𛉚,235,玉欲窝往,njyu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉚.jpg
+𛉛,236,处娶取岂启,tchy35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉛.jpg
+𛉜,237,北拔,pw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉜.jpg
+𛉝,238,扯海害笋舍损耍舜捨,hw35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉝.jpg
+𛉞,239,品,phai35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉞.jpg
+𛉟,240,慢孟米莫麦每蜜眯庙妙买谋与问,mai33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉟.jpg
+𛉠,241,等,lai35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉠.jpg
+𛉡,242,信讯送宋,sai21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉡.jpg
+𛉢,243,红洪鸿,hai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉢.jpg
+𛉣,245,冒帽,mau33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉣.jpg
+𛉤,244,草吵炒楚套,tshau35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉤.jpg
+𛉥,300,号,hau33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉥.jpg
+𛉦,246,喝个各阁搁恶,kou5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉦.jpg
+𛉧,302,欧,ou44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉧.jpg
+𛉋,247,绸袖总坤就共,tsiou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉋.jpg
+𛉩,248,畜秋,tshiou44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉩.jpg
+𛉪,249,羞修,siou44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉪.jpg
+𛉫,250,粥祝角觉,tciou5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉫.jpg
+𛉬,252,仇酬效校孝学寿受授熟,ciou13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉬.jpg
+𛉭,253,通滩,thuow44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉭.jpg
+𛉮,254,奉放,fang13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉮.jpg
+𛉯,255,窝亡枉,vang5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉯.jpg
+𛉰,256,当端,lang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉰.jpg
+𛉱,257,聪窗餐仓苍葬枪迁腔抢,tshang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉱.jpg
+𛉲,259,空康宽堪,khang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉲.jpg
+𛉳,258,砍,khang5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉳.jpg
+𛉴,260,良粮龙凉梁粱隆亮量,liang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉴.jpg
+𛉵,203,凑相箱镶湘厢松,siang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉵.jpg
+𛉶,261,香乡胸伤商尚,ciang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉶.jpg
+𛉷,314,响享,ciang35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉷.jpg
+𛉸,262,念点典,neng35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉸.jpg
+𛉹,263,线连莲,leng42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉹.jpg
+𛉺,264,男南,nong42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉺.jpg
+𛉻,265,胆但担坦,long35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉻.jpg
+𛉼,266,宁冷岭领另令灵龄零丁钉,liong13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉼.jpg
+𛉽,267,静净精睛定,tsiong13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉽.jpg
+𛉾,269,参星姓性簪,siong44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉾.jpg
+𛉿,270,占经坚兼肩,tcing44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛉿.jpg
+𛊀,272,缠展沾捡,tcing44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊀.jpg
+𛊁,273,贤嫌形刑,cing42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊁.jpg
+𛊂,274,你燕咽,ing21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊂.jpg
+𛊃,275,磨安鞍庵嗯饿碗误,ng44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊃.jpg
+𛊄,276,为唯围微违维伪,va42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊄.jpg
+𛊅,277,坐做作死,sa35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊅.jpg
+𛊆,278,雷,lie42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊆.jpg
+𛊇,279,退,tshie21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊇.jpg
+𛊈,280,昔惜锡积绩借,sie5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊈.jpg
+𛊉,281,吃引应任我,ie13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊉.jpg
+𛊊,282,买嬷埋奶尾萎,moe13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊊.jpg
+𛊋,283,捉带,loe21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊋.jpg
+𛊌,284,春村车撑,tchye44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊌.jpg
+𛊍,223,靴逊训孙石顺射社舍赦笋停,cye44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊍.jpg
+𛊎,285,别离厘篱璃罗,pi33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊎.jpg
+𛊏,286,梯,ti44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊏.jpg
+𛊐,287,吸职折织执酌汁吉结急级击劫洁脚菊决,tci5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊐.jpg
+𛊑,297,皱焦蕉椒,tsiu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊑.jpg
+𛊒,231,腹斧,pu5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊒.jpg
+𛊓,288,祸妇富附负,fu21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊓.jpg
+𛊔,289,土塔,thu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊔.jpg
+𛊕,290,匣河喊,hu42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊕.jpg
+𛊖,291,著着惧借菌祀,tcy13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊖.jpg
+𛊗,292,雪血歇硕设识室,cy5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊗.jpg
+𛊘,293,逢浮朋陪贫蓬盆袍赔,pw42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊘.jpg
+𛊙,294,刻,khw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊙.jpg
+𛊚,295,弄东灯登冬低,lai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊚.jpg
+𛊛,296,辛心新,sai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊛.jpg
+𛊜,299,产减省嫂伞,sau35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊜.jpg
+𛊝,298,愁沉尘陈撑曹遭至志智制治种证镇禁髻似穷勤琴芹,tsou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊝.jpg
+𛊞,301,牛,ngou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊞.jpg
+𛊟,303,酒,tsiou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊟.jpg
+𛊠,305,咬,njiou13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊠.jpg
+𛊡,304,法叔,ciou5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊡.jpg
+𛊢,251,鱼由游油犹尤衙牙芽渔柔娥鹅吴,iou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊢.jpg
+𛊣,306,英,yn44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊣.jpg
+𛊤,307,迟地赏同堂团塘童棠唐谈桃萄逃统,tang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊤.jpg
+𛊥,201,郎狼朗短党挡当端断栋,lang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊥.jpg
+𛊦,311,广管敢感赶馆,kang35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊦.jpg
+𛊧,308,糠欢荒汉换焕汗唤翰旱,hang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊧.jpg
+𛊨,309,行衔咸黄寒皇杭含韩烦,hang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊨.jpg
+𛊩,310,想响相恐抢,siang35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊩.jpg
+𛊪,312,层长像象重丈仗种帐众奏皱灶皂造降颂,tciang13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊪.jpg
+𛊫,313,鸳鸯秧英婴烟染,iang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊫.jpg
+𛊬,315,梅眠媒棉绵枚,meng42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊬.jpg
+𛊭,268,停廷亭庭厅清情晴青,tsiong42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊭.jpg
+𛊮,316,姓性幸犯岁鸭,siong21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊮.jpg
+𛊯,317,穿川轻卿倾,tchiong44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊯.jpg
+𛊰,318,悲碑被婢备避拔辈斑贝,pa33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊰.jpg
+𛊱,349,脱,tshie5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊱.jpg
+𛊲,319,惜昔肯恨憾,sie5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊲.jpg
+𛊳,320,灾斋,tsoe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊳.jpg
+𛊴,321,解矮且,koe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊴.jpg
+𛊵,322,尊遵诸遮军君均居闺裙,tcye44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊵.jpg
+𛊶,323,存巡膝袖竹罪最蔗尊炙转跨裤俊军郡裙,tcye42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊶.jpg
+𛊷,324,把,pwe35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊷.jpg
+𛊸,325,屎思司丝师诗私狮尸施斯恩,swe44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊸.jpg
+𛊹,326,啼提,ti42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊹.jpg
+𛊺,327,移姨摇窑油游依,i42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊺.jpg
+𛊻,335,朝场肠长重渐其墙桥茄乔骑奇旗期棋麒祁强,tciu42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊻.jpg
+𛊼,336,痴稀希食烧岁失属输淑欺,ciu44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊼.jpg
+𛊽,328,祖组阻赌,tsu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊽.jpg
+𛊾,329,骂初粗差操鬚租宅助梳疏纱沙杉苏蓑蔬,tshu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊾.jpg
+𛊿,330,孤姑锅估改,ku44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛊿.jpg
+𛋀,331,德得答,lw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋀.jpg
+𛋁,332,门闻,mai42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋁.jpg
+𛋂,333,篮高糕篙哥孤勾钩沟稿敲,kau44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋂.jpg
+𛋃,334,兜透痛探偷贪滔,thou21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋃.jpg
+𛋄,342,候喊,hou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋄.jpg
+𛋅,339,螃环房妨逢防纺访盘旁亡玩,pang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋅.jpg
+𛋆,343,宾冰掰风妨封分份凭问,fang44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋆.jpg
+𛋇,340,断地段缎短端,tang13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋇.jpg
+𛋈,337,浪乱短党端断,lang33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋈.jpg
+𛋉,338,墨妹面免敏梅枚,meng33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋉.jpg
+𛋊,341,殿电垫佃田恬填甜,teng42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋊.jpg
+𛋋,344,贱尖箭严然前钱浅泉,tseng42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋋.jpg
+𛋌,345,现善扇,cing13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋌.jpg
+𛋍,346,默蔫盈阎盐炎严赢郁抑迎忧延仍,ing42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋍.jpg
+𛋎,347,浸,tsa33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋎.jpg
+𛋏,350,借,tsie21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋏.jpg
+𛋐,351,兴虚胜甚剩,cie21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋐.jpg
+𛋑,348,埋,moe42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋑.jpg
+𛋒,353,鸟煮底抵越体桶主,li35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋒.jpg
+𛋓,360,猫茅苗拆策直指摘责节接借截实,tsi5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋓.jpg
+𛋔,352,朝嬉招直值置蛰这娇鸡饥机基稽轿急及极忌寂居俱绝襟金闺麒,tci44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋔.jpg
+𛋕,354,倚椅依扰,i35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋕.jpg
+𛋖,355,莫,mu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋖.jpg
+𛋗,357,路露禄腊芦炉卢庐鲁鸬掳妒都,lu21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋗.jpg
+𛋘,358,湖河胡壶,hu42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋘.jpg
+𛋙,362,辰承乘晨神树赎深丞绍殊竖,cyu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋙.jpg
+𛋚,361,黑害,hw5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋚.jpg
+𛋛,359,道稻豆,tau13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋛.jpg
+𛋜,363,绣秀,siou21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋜.jpg
+𛋝,365,落洛,lew33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋝.jpg
+𛋞,364,错,tshew5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋞.jpg
+𛋟,366,县远冤渊愿怨往,yn13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋟.jpg
+𛋠,367,淡潭,tong13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋠.jpg
+𛋡,368,吃饮隐,ie35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋡.jpg
+𛋢,369,挖,voe5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋢.jpg
+𛋣,370,慈辞池持迟,tswe21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋣.jpg
+𛋤,371,既意以已,i21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋤.jpg
+𛋥,372,舂独毒达度渡窦肚读薯榻踏屠图,tu33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋥.jpg
+𛋦,356,堵赌,lu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋦.jpg
+𛋧,373,乐漏兜蔸,lou33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋧.jpg
+𛋨,379,爱,tsou42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋨.jpg
+𛋩,374,争,tsuow44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋩.jpg
+𛋪,375,美满梦摸摩蒙判胖网,mang13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋪.jpg
+𛋫,378,总困贵挂怪跪更棍桂拐,tciang33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋫.jpg
+𛋬,376,唱铳仗,tchiang21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋬.jpg
+𛋭,377,正惊京荆精兢,tciong44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋭.jpg
+𛋮,380,谢席夕阵借笛碟敌,tsie33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋮.jpg
+𛋯,381,卖袜,moe33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋯.jpg
+𛋰,383,科考歌哥孤姑戈,ku44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋰.jpg
+𛋱,384,许主暑鼠,cyu35,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋱.jpg
+𛋲,382,背,pw21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋲.jpg
+𛋳,385,沉从长层蚕辞曹巢陈曾昨遭僧,tsiang42,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋳.jpg
+𛋴,386,葱踩抄操推妻亲侵凄,tshai44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋴.jpg
+𛋵,387,眼,nguow13,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋵.jpg
+𛋶,388,会活或话画悔患给佛罚范,nong44,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋶.jpg
+𛋷,389,博忽福复幅腹斧魄,fu5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋷.jpg
+𛋸,390,谷穀鸽歌,ku5,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋸.jpg
+𛋹,391,凤,fang33,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋹.jpg
+𛋺,392,转渐眷,tcye21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋺.jpg
+𛋻,393,费,fi21,https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/𛋻.jpg

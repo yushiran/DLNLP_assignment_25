@@ -37,8 +37,8 @@ def add_font_paths_to_csv():
         image_filename = f"{char}.jpg"
         
         if image_filename in font_images:
-            # If found, add the path to the list
-            image_path = str(font_dir / image_filename)
+            # If found, add the path to the list 
+            image_path = str('https://github.com/yushiran/DLNLP_assignment_25/tree/main/data/raw/nushu_font/' + image_filename)
             image_paths.append(image_path)
         else:
             # If not found, add empty string

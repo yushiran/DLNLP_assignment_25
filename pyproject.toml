@@ -1,0 +1,16 @@
+[project]
+name = "dlnlp-assignment-25"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deepl>=1.22.0",
+    "dotenv>=0.9.9",
+    "neo4j>=5.28.1",
+    "pandas>=2.2.3",
+    "py-translate>=1.0.3",
+    "requests>=2.32.3",
+    "sentence-transformers>=4.1.0",
+    "translate>=3.6.1",
+]
