@@ -1,3 +1,5 @@
+Neo4j-pwd.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -129,12 +131,12 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# .venv
+# env/
+# venv/
+# ENV/
+# env.bak/
+# venv.bak/
 
 # Spyder project settings
 .spyderproject

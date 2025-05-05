@@ -1,0 +1,41 @@
+# 基础数据分析
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 网络和图形处理
+networkx>=3.0
+matplotlib>=3.7.0
+plotly>=5.14.0
+
+# 向量嵌入模型
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.0  # 如需GPU支持，替换为faiss-gpu
+gensim>=4.3.0
+
+# 知识图谱
+rdflib>=6.3.0
+py2neo>=2021.2.3  # 如果使用Neo4j
+sqlite3-api>=0.1.0  # 轻量级备选
+
+# 自然语言处理
+jieba>=0.42.1  # 中文分词
+pyhanzi>=0.1.1  # 汉字处理
+nltk>=3.8
+
+# 轻量级机器学习模型 
+scikit-learn>=1.2.0
+lightgbm>=3.3.0
+
+# LLM调用和微调
+transformers>=4.28.0
+torch>=2.0.0  # 或对应CUDA版本
+accelerate>=0.19.0  # 加速推理
+
+# API和Web服务
+fastapi>=0.95.0
+uvicorn>=0.22.0
+gradio>=3.30.0  # 快速构建UI接口
+
+# 工具和开发辅助
+tqdm>=4.65.0
+python-dotenv>=1.0.0
