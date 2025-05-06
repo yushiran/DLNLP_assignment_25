@@ -196,7 +196,7 @@ def main():
     try:
         # First try to read from environment variables
         neo4j_uri = os.environ.get('NEO4J_URI', 'bolt://localhost:7687')
-        neo4j_user = os.environ.get('NEO4J_USER', 'neo4j')
+        neo4j_user = os.environ.get('NEO4J_USERNAME', 'neo4j')
         ne4j_pwd = os.environ.get('NEO4J_PASSWORD')
         
         # Get CSV file path

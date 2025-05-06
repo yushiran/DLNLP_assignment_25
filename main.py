@@ -1,4 +1,4 @@
-from src import create_knowledge_graph
+from src import create_knowledge_graph, add_vector_index_to_kg, deploy_rag_with_deepseek
 from src.utils import translator
 from src.utils import add_font_toCSV
 import pandas as pd
@@ -20,6 +20,12 @@ def main():
     
     # create knowledge graph
     # create_knowledge_graph.main()
+
+    # add vector index to the knowledge graph
+    # add_vector_index_to_kg.main()
+    
+    # Run the Streamlit interface
+    deploy_rag_with_deepseek.run_rag_interface()
 
     return 0
 
