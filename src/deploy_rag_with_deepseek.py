@@ -68,7 +68,7 @@ class NushuDeepseekRAG:
             logger.info("Successfully loaded OpenAI embedding model")
             
             # Initialize Qwen model from local path or download it to local path
-            logger.info(f"Loading Qwen model to local path: {local_model_path}...")
+            logger.info(f"Loading {model_id} to local path: {local_model_path}...")
             
             # 检查本地路径是否已存在模型文件
             model_config_path = os.path.join(local_model_path, "config.json")
@@ -202,65 +202,71 @@ class NushuDeepseekRAG:
         
         return rag_chain
     
+    def get_most_similar_nodes(self,query):
+        # Step 1: First analyze the question with the LLM to extract query entities
+        extraction_prompt = ChatPromptTemplate.from_template(
+            """You are an expert on Nüshu script and Chinese characters.
+            Analyze the following question and extract key terms or entities that should be searched in a knowledge graph.
+            Return ONLY a comma-separated list of search terms without any additional explanation or thinking process.
+            
+            Question: {question}
+            
+            Search terms: please provide a comma-separated list of terms to search for in the knowledge graph about Nüshu."""
+        )
+        
+        # Create a chain for entity extraction
+        extraction_chain = extraction_prompt | self.llm
+        
+        # Get search terms from LLM
+        search_terms_result = extraction_chain.invoke({"question": query})
+
+        logger.info(f"search_terms_result: {search_terms_result}")
+        
+        # Clean up the search terms result to handle potential formatting issues
+        search_terms_cleaned = search_terms_result.replace('<think>', '').replace('</think>', '')
+        search_terms = [term.strip() for term in search_terms_cleaned.split(',') if term.strip()]
+        
+        # Log the extracted search terms without the raw output
+        logger.info(f"Extracted search terms for query: {query}")
+        logger.info(f"Terms: {', '.join(search_terms)}")
+        
+        # Step 2: Search for each term in the knowledge graph and collect results
+        all_context = []
+        for term in search_terms:
+            if term:  # Skip empty terms
+                logger.info(f"Searching for term: {term}")
+                term_results = self._get_similar_nodes(term)
+                if term_results:
+                    all_context.extend(term_results)
+                    logger.info(f"Found {len(term_results)} results for term: {term}")
+                else:
+                    logger.info(f"No results found for term: {term}")
+        
+        # Deduplicate results based on text content
+        seen_texts = set()
+        unique_context = []
+        for result in all_context:
+            if result['text'] not in seen_texts:
+                seen_texts.add(result['text'])
+                unique_context.append(result)
+        
+        # Sort by relevance score
+        unique_context.sort(key=lambda x: x['score'], reverse=True)
+        
+        # Take top results (limit to avoid context length issues)
+        top_context = unique_context[:10]
+        logger.info(f"Using {len(top_context)} unique context items for answer generation")
+        
+        # Format context for the final prompt
+        context_text = self._format_docs(top_context)
+
+        return context_text
+    
     def answer_question(self, question, use_rag=False, stream_handler=None):
         try:
             if use_rag:
-                # Step 1: First analyze the question with the LLM to extract query entities
-                extraction_prompt = ChatPromptTemplate.from_template(
-                    """You are an expert on Nüshu script and Chinese characters.
-                    Analyze the following question and extract key terms or entities that should be searched in a knowledge graph.
-                    Return ONLY a comma-separated list of search terms without any additional explanation or thinking process.
-                    
-                    Question: {question}
-                    
-                    Search terms: """
-                )
-                
-                # Create a chain for entity extraction
-                extraction_chain = extraction_prompt | self.llm | StrOutputParser()
-                
-                # Get search terms from LLM
-                search_terms_result = extraction_chain.invoke({"question": question})
-
-                logger.info(f"search_terms_result: {search_terms_result}")
-                
-                # Clean up the search terms result to handle potential formatting issues
-                search_terms_cleaned = search_terms_result.replace('<think>', '').replace('</think>', '')
-                search_terms = [term.strip() for term in search_terms_cleaned.split(',') if term.strip()]
-                
-                # Log the extracted search terms without the raw output
-                logger.info(f"Extracted search terms for query: {question}")
-                logger.info(f"Terms: {', '.join(search_terms)}")
-                
-                # Step 2: Search for each term in the knowledge graph and collect results
-                all_context = []
-                for term in search_terms:
-                    if term:  # Skip empty terms
-                        logger.info(f"Searching for term: {term}")
-                        term_results = self._get_similar_nodes(term)
-                        if term_results:
-                            all_context.extend(term_results)
-                            logger.info(f"Found {len(term_results)} results for term: {term}")
-                        else:
-                            logger.info(f"No results found for term: {term}")
-                
-                # Deduplicate results based on text content
-                seen_texts = set()
-                unique_context = []
-                for result in all_context:
-                    if result['text'] not in seen_texts:
-                        seen_texts.add(result['text'])
-                        unique_context.append(result)
-                
-                # Sort by relevance score
-                unique_context.sort(key=lambda x: x['score'], reverse=True)
-                
-                # Take top results (limit to avoid context length issues)
-                top_context = unique_context[:10]
-                logger.info(f"Using {len(top_context)} unique context items for answer generation")
-                
-                # Format context for the final prompt
-                context_text = self._format_docs(top_context)
+                context_text = self.get_most_similar_nodes(question)# Step 1: Retrieve context from Neo4j
+                logger.info(f"Retrieved context: {context_text}")
                 
                 # Step 3: Answer the original question with retrieved context
                 answer_prompt = ChatPromptTemplate.from_template(
@@ -358,7 +364,7 @@ class NushuDeepseekRAG:
             
         # 处理 Qwen 模型输出
         if "qwen" in model_name:
-            logger.info("Processing response from Qwen model")
+            logger.info(f"Processing response from {model_id}")
             # DeepSeek 模型通常使用特定标记
             if "<think>" in result.lower() and "</think>" in result.lower():
                 answer = result.split("</think>", 1)[-1].strip()
