@@ -4,6 +4,8 @@
 import os
 import pandas as pd
 from pathlib import Path
+# Get the absolute path to the project root directory (two levels up from the current file)
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 
 
 def add_font_paths_to_csv():
@@ -12,18 +14,17 @@ def add_font_paths_to_csv():
     add a new column with image paths, and save the result to processed directory.
     """
     # Define file paths
-    base_dir = Path('/home/yushiran/DLNLP_assignment_25')
-    data_path = base_dir / 'data/raw/data.csv'
-    font_dir = base_dir / 'data/raw/nushu_font'
-    processed_dir = base_dir / 'data/processed'
-    output_path = processed_dir / 'data.csv'
+    data_path = os.path.join(base_dir,'data/raw/data.csv')
+    font_dir = os.path.join(base_dir,'data/raw/nushu_font')
+    processed_dir = os.path.join(base_dir,'data/processed')
+    output_path = os.path.join(processed_dir,'data.csv')
     
     # Create processed directory if it doesn't exist
-    processed_dir.mkdir(parents=True, exist_ok=True)
+    Path(processed_dir).mkdir(parents=True, exist_ok=True)
     
     # Read the CSV file
     print(f"Reading CSV from {data_path}")
-    df = pd.read_csv(data_path)
+    df = pd.read_csv(Path(data_path))
     
     # Get list of all available font image filenames
     font_images = os.listdir(font_dir)
