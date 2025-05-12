@@ -2,6 +2,8 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-brightgreen)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+[![Hugging Face Space](https://img.shields.io/badge/🤗-Hugging%20Face%20Space-blue)](https://huggingface.co/ShiranYu/nvshu_lora)
+
 
 This repository contains a comprehensive system for Nüshu character recognition, analysis, and retrieval using advanced NLP techniques, knowledge graphs, and fine-tuned language models.
 
@@ -16,7 +18,11 @@ This repository contains a comprehensive system for Nüshu character recognition
 - [Evaluation Results](#evaluation-results)
 
 ## Project Overview
-This project implements a comprehensive system for analyzing and retrieving information about Nüshu characters (女书), a syllabic script historically used exclusively by women in the southern Hunan province of China. The system integrates advanced NLP techniques, knowledge graphs, and fine-tuned language models to provide accurate recognition, analysis, and retrieval of Nüshu characters. 
+This project implements a comprehensive system for analyzing and retrieving information about Nüshu characters (女书). Nushu (𛆁𛈬, 女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China. It is handed down by mother to daughter among the Han and Yao people from generation to generation in Jiangyong County and its adjacent areas, becoming a unique cultural phenomenon in human history.Nushu characters are rhomboidal in shape, slim in style and imaginative in the form. The total amount of the characters being discovered is up to two thousand, all of which contain solely four kinds of strokes – dotted, vertical, oblique and arcuate.The system integrates advanced NLP techniques, knowledge graphs, and fine-tuned language models to provide accurate recognition, analysis, and retrieval of Nüshu characters. 
+
+![AI in Nüshu](latex/images/AI_in_nvshu.png)
+
+*This image depicts the term "Artificial Intelligence" written in Nüshu script.*
 
 For more information about Nüshu, visit the [Nüshu Script Official Website](https://nushuscript.org/en-US/).
 The dataset used in this project originates from the [![Data Source](https://img.shields.io/badge/Data%20Source-Nushu%20Unicode%20Dataset-blue)](https://github.com/nushu-script/unicode_nushu.git), which provides raw Nüshu character data for analysis and processing.
@@ -26,6 +32,8 @@ The dataset used in this project originates from the [![Data Source](https://img
 2. **Retrieval-Augmented Generation (RAG)**: Using the DeepSeek and Qwen models with the knowledge graph
 ![RAG System Implementation](latex/images/RAG.gif)
 3. **LoRA Fine-tuned Models**: Specialized models for Nüshu character recognition and analysis
+![Model on Hugging Face](https://img.shields.io/badge/Hugging%20Face-nvshu_lora-blue?logo=huggingface&style=flat-square)
+
 4. **Evaluation Framework**: Compare performance of different approaches
 ![Evaluation Results Comparison](evaluation_results/metrics_comparison.png)
 ## Project Structure
