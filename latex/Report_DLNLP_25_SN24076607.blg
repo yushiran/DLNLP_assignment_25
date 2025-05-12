@@ -3,44 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Report_DLNLP_25_SN24076607.aux
 The style file: IEEEbib.bst
 Database file #1: refs.bib
-You've used 1 entry,
+Warning--empty journal in deepseek-aiDeepSeekR1IncentivizingReasoning2025
+Warning--empty journal in baiQwenTechnicalReport2023
+You've used 12 entries,
             1838 wiz_defined-function locations,
-            464 strings with 3647 characters,
-and the built_in function-call counts, 407 in all, are:
-= -- 39
-> -- 11
+            538 strings with 11609 characters,
+and the built_in function-call counts, 6215 in all, are:
+= -- 219
+> -- 972
 < -- 2
-+ -- 4
-- -- 3
-* -- 28
-:= -- 58
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
++ -- 328
+- -- 316
+* -- 759
+:= -- 1264
+add.period$ -- 13
+call.type$ -- 12
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 21
-empty$ -- 39
-format.name$ -- 3
-if$ -- 100
+cite$ -- 14
+duplicate$ -- 116
+empty$ -- 248
+format.name$ -- 316
+if$ -- 1132
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 1
-pop$ -- 5
+int.to.str$ -- 12
+missing$ -- 14
+newline$ -- 65
+num.names$ -- 14
+pop$ -- 47
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 15
+skip$ -- 43
 stack$ -- 0
-substring$ -- 28
-swap$ -- 12
+substring$ -- 100
+swap$ -- 23
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 15
+warning$ -- 2
+while$ -- 25
+width$ -- 14
+write$ -- 133
+(There were 2 warnings)

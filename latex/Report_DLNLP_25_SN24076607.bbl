@@ -1,8 +1,137 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{C2}
-C.D. Jones, A.B. Smith, and E.F. Roberts,
-\newblock ``Article title,''
-\newblock in {\em Proceedings Title}. IEEE, 2003, vol.~II, pp. 803--806.
+\bibitem{chen2006nuhanzi}
+Qi~Guang Chen,
+\newblock {\em {女漢字典} [Nu Han Zi Dian: Nüshu Chinese Character
+  Dictionary]},
+\newblock {中央民族大學出版社} [Central University for Nationalities
+  Press], 2006,
+\newblock This dictionary compiles over 3400 characters from original
+  manuscripts, copies, and rubbings of Nüshu texts. It annotates the form,
+  pronunciation, and meaning of each character, and documents their evolution
+  into standard Chinese characters.
+
+\bibitem{hoganKnowledgeGraphs2022}
+Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia D'amato, Gerard~De Melo,
+  Claudio Gutierrez, Sabrina Kirrane, Jos{\'e} Emilio~Labra Gayo, Roberto
+  Navigli, Sebastian Neumaier, Axel-Cyrille~Ngonga Ngomo, Axel Polleres,
+  Sabbir~M. Rashid, Anisa Rula, Lukas Schmelzeisen, Juan Sequeda, Steffen
+  Staab, and Antoine Zimmermann,
+\newblock ``Knowledge {{Graphs}},''
+\newblock {\em ACM Computing Surveys}, vol. 54, no. 4, pp. 1--37, May 2022.
+
+\bibitem{gaoRetrievalAugmentedGenerationLarge2024}
+Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi~Dai,
+  Jiawei Sun, Meng Wang, and Haofen Wang,
+\newblock ``Retrieval-{{Augmented Generation}} for {{Large Language Models}}:
+  {{A Survey}},'' Mar. 2024.
+
+\bibitem{deepseek-aiDeepSeekR1IncentivizingReasoning2025}
+{DeepSeek-AI}, Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang,
+  Runxin Xu, Qihao Zhu, Shirong Ma, Peiyi Wang, Xiao Bi, Xiaokang Zhang,
+  Xingkai Yu, Yu~Wu, Z.~F. Wu, Zhibin Gou, Zhihong Shao, Zhuoshu Li, Ziyi Gao,
+  Aixin Liu, Bing Xue, Bingxuan Wang, Bochao Wu, Bei Feng, Chengda Lu,
+  Chenggang Zhao, Chengqi Deng, Chenyu Zhang, Chong Ruan, Damai Dai, Deli Chen,
+  Dongjie Ji, Erhang Li, Fangyun Lin, Fucong Dai, Fuli Luo, Guangbo Hao,
+  Guanting Chen, Guowei Li, H.~Zhang, Han Bao, Hanwei Xu, Haocheng Wang,
+  Honghui Ding, Huajian Xin, Huazuo Gao, Hui Qu, Hui Li, Jianzhong Guo, Jiashi
+  Li, Jiawei Wang, Jingchang Chen, Jingyang Yuan, Junjie Qiu, Junlong Li, J.~L.
+  Cai, Jiaqi Ni, Jian Liang, Jin Chen, Kai Dong, Kai Hu, Kaige Gao, Kang Guan,
+  Kexin Huang, Kuai Yu, Lean Wang, Lecong Zhang, Liang Zhao, Litong Wang, Liyue
+  Zhang, Lei Xu, Leyi Xia, Mingchuan Zhang, Minghua Zhang, Minghui Tang, Meng
+  Li, Miaojun Wang, Mingming Li, Ning Tian, Panpan Huang, Peng Zhang, Qiancheng
+  Wang, Qinyu Chen, Qiushi Du, Ruiqi Ge, Ruisong Zhang, Ruizhe Pan, Runji Wang,
+  R.~J. Chen, R.~L. Jin, Ruyi Chen, Shanghao Lu, Shangyan Zhou, Shanhuang Chen,
+  Shengfeng Ye, Shiyu Wang, Shuiping Yu, Shunfeng Zhou, Shuting Pan, S.~S. Li,
+  Shuang Zhou, Shaoqing Wu, Tao Yun, Tian Pei, Tianyu Sun, T.~Wang, Wangding
+  Zeng, Wanjia Zhao, Wen Liu, Wenfeng Liang, Wenjun Gao, Wenqin Yu, Wentao
+  Zhang, W.~L. Xiao, Wei An, Xiaodong Liu, Xiaohan Wang, Xiaokang Chen, Xiaotao
+  Nie, Xin Cheng, Xin Liu, Xin Xie, Xingchao Liu, Xinyu Yang, Xinyuan Li,
+  Xuecheng Su, Xuheng Lin, X.~Q. Li, Xiangyue Jin, Xiaojin Shen, Xiaosha Chen,
+  Xiaowen Sun, Xiaoxiang Wang, Xinnan Song, Xinyi Zhou, Xianzu Wang, Xinxia
+  Shan, Y.~K. Li, Y.~Q. Wang, Y.~X. Wei, Yang Zhang, Yanhong Xu, Yao Li, Yao
+  Zhao, Yaofeng Sun, Yaohui Wang, Yi~Yu, Yichao Zhang, Yifan Shi, Yiliang
+  Xiong, Ying He, Yishi Piao, Yisong Wang, Yixuan Tan, Yiyang Ma, Yiyuan Liu,
+  Yongqiang Guo, Yuan Ou, Yuduan Wang, Yue Gong, Yuheng Zou, Yujia He, Yunfan
+  Xiong, Yuxiang Luo, Yuxiang You, Yuxuan Liu, Yuyang Zhou, Y.~X. Zhu, Yanping
+  Huang, Yaohui Li, Yi~Zheng, Yuchen Zhu, Yunxian Ma, Ying Tang, Yukun Zha,
+  Yuting Yan, Z.~Z. Ren, Zehui Ren, Zhangli Sha, Zhe Fu, Zhean Xu, Zhenda Xie,
+  Zhengyan Zhang, Zhewen Hao, Zhicheng Ma, Zhigang Yan, Zhiyu Wu, Zihui Gu,
+  Zijia Zhu, Zijun Liu, Zilin Li, Ziwei Xie, Ziyang Song, Zizheng Pan, Zhen
+  Huang, Zhipeng Xu, Zhongyu Zhang, and Zhen Zhang,
+\newblock ``{{DeepSeek-R1}}: {{Incentivizing Reasoning Capability}} in {{LLMs}}
+  via {{Reinforcement Learning}},''
+\newblock 2025.
+
+\bibitem{huLoRALowRankAdaptation2021}
+J.~E. Hu, Yelong Shen, Phillip Wallis, Zeyuan {Allen-Zhu}, Yuanzhi Li, Shean
+  Wang, and Weizhu Chen,
+\newblock ``{{LoRA}}: {{Low-Rank Adaptation}} of {{Large Language Models}},''
+\newblock {\em ArXiv}, June 2021.
+
+\bibitem{zhao2005nushu}
+Liming Zhao,
+\newblock {\em {中國女書合集（全五冊）} [Collected Works of Chinese
+  Nüshu (5 volumes)]},
+\newblock 5 volumes. {中華書局} [Zhonghua Book Company], 2005,
+\newblock This is the most comprehensive compilation of Nüshu texts, the
+  world's only known women-only script, including over 652 manuscripts with
+  scanned facsimiles, translations, and annotations. The collection covers more
+  than 90\% of all extant Nüshu materials and provides valuable resources for
+  linguistics, philology, literature, anthropology, folklore, and sociology.
+
+\bibitem{zhang2006nushu}
+Xiurong Zhang, Kun Guo, and Jingquan He,
+\newblock {\em {女書用字比較} [A Comparative Study of Nüshu
+  Characters]},
+\newblock {知識產權出版社} [Intellectual Property Publishing House],
+  2006,
+\newblock This book provides a comparative study of Nüshu characters,
+  including analyses of the social and cultural foundations of Chinese Marxism,
+  its theoretical achievements, and innovations.
+
+\bibitem{mitricAIComputerVision2024}
+Jovana Mitric, Igor Radulovic, Tomo Popovic, Zoja Scekic, and Sandra Tinaj,
+\newblock ``{{AI}} and {{Computer Vision}} in {{Cultural Heritage
+  Preservation}},''
+\newblock in {\em 2024 28th {{International Conference}} on {{Information
+  Technology}} ({{IT}})}, Feb. 2024, pp. 1--4.
+
+\bibitem{harisantyculturalheritagepreservation2024}
+Dessy Harisanty, Kathleen Lourdes~Ballesteros Obille, Nove E.~Variant Anna,
+  Endah Purwanti, and Fitri Retrialisca,
+\newblock ``Cultural heritage preservation in the digital age, harnessing
+  artificial intelligence for the future: A bibliometric analysis,''
+\newblock {\em Digital Library Perspectives}, vol. 40, no. 4, pp. 609--630,
+  Sept. 2024.
+
+\bibitem{carrieroArCoItalianCultural2019}
+Valentina~Anita Carriero, Aldo Gangemi, Maria~Letizia Mancinelli, Ludovica
+  Marinucci, Andrea~Giovanni Nuzzolese, Valentina Presutti, and Chiara
+  Veninata,
+\newblock ``{{ArCo}}: {{The Italian Cultural Heritage Knowledge Graph}},''
+\newblock in {\em The {{Semantic Web}} -- {{ISWC}} 2019}, Chiara Ghidini, Olaf
+  Hartig, Maria Maleshkova, Vojt{\v e}ch Sv{\'a}tek, Isabel Cruz, Aidan Hogan,
+  Jie Song, Maxime Lefran{\c c}ois, and Fabien Gandon, Eds., Cham, 2019, pp.
+  36--52, Springer International Publishing.
+
+\bibitem{douKnowledgeGraphBased2018}
+Jinhua Dou, Jingyan Qin, Zanxia Jin, and Zhuang Li,
+\newblock ``Knowledge graph based on domain ontology and natural language
+  processing technology for {{Chinese}} intangible cultural heritage,''
+\newblock {\em Journal of Visual Languages \& Computing}, vol. 48, pp. 19--28,
+  Oct. 2018.
+
+\bibitem{baiQwenTechnicalReport2023}
+Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, Kai Dang, Xiaodong Deng, Yang Fan,
+  Wenbin Ge, Yu~Han, Fei Huang, Binyuan Hui, Luo Ji, Mei Li, Junyang Lin, Runji
+  Lin, Dayiheng Liu, Gao Liu, Chengqiang Lu, Keming Lu, Jianxin Ma, Rui Men,
+  Xingzhang Ren, Xuancheng Ren, Chuanqi Tan, Sinan Tan, Jianhong Tu, Peng Wang,
+  Shijie Wang, Wei Wang, Shengguang Wu, Benfeng Xu, Jin Xu, An~Yang, Hao Yang,
+  Jian Yang, Shusheng Yang, Yang Yao, Bowen Yu, Hongyi Yuan, Zheng Yuan,
+  Jianwei Zhang, Xingxuan Zhang, Yichang Zhang, Zhenru Zhang, Chang Zhou,
+  Jingren Zhou, Xiaohuan Zhou, and Tianhang Zhu,
+\newblock ``Qwen {{Technical Report}},''
+\newblock 2023.
 
 \end{thebibliography}
