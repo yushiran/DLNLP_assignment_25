@@ -23,6 +23,7 @@ dependencies = [
     "peft>=0.15.2",
     "py-translate>=1.0.3",
     "requests>=2.32.3",
+    "rouge>=1.0.1",
     "sentence-transformers>=4.1.0",
     "streamlit>=1.45.0",
     "translate>=3.6.1",

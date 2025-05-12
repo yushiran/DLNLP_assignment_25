@@ -343,6 +343,7 @@ dependencies = [
     { name = "peft" },
     { name = "py-translate" },
     { name = "requests" },
+    { name = "rouge" },
     { name = "sentence-transformers" },
     { name = "streamlit" },
     { name = "translate" },
@@ -368,6 +369,7 @@ requires-dist = [
     { name = "peft", specifier = ">=0.15.2" },
     { name = "py-translate", specifier = ">=1.0.3" },
     { name = "requests", specifier = ">=2.32.3" },
+    { name = "rouge", specifier = ">=1.0.1" },
     { name = "sentence-transformers", specifier = ">=4.1.0" },
     { name = "streamlit", specifier = ">=1.45.0" },
     { name = "translate", specifier = ">=3.6.1" },
@@ -1699,6 +1701,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/f3/61/d7545dafb7ac2230c70d38d31cbfe4cc64f7144dc41f6e4e4b78ecd9f5bb/requests-toolbelt-1.0.0.tar.gz", hash = "sha256:7681a0a3d047012b5bdc0ee37d7f8f07ebe76ab08caeccfc3921ce23c88d5bc6", size = 206888 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl", hash = "sha256:cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06", size = 54481 },
+]
+
+[[package]]
+name = "rouge"
+version = "1.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/db/e4/3420a1ab1e82a280fb6107f7ae99e88eb12383c978fe573c0c64d0327d6b/rouge-1.0.1.tar.gz", hash = "sha256:12b48346ca47d6bcf3c45061f315452b9ccec0620ee895ec85b7efc3d54aae34", size = 14292 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/32/7c/650ae86f92460e9e8ef969cc5008b24798dcf56a9a8947d04c78f550b3f5/rouge-1.0.1-py3-none-any.whl", hash = "sha256:28d118536e8c774dc47d1d15ec266479b4dd0914c4672ce117d4002789bdc644", size = 13725 },
 ]
 
 [[package]]
