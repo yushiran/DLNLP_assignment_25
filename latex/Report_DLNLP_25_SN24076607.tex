@@ -145,13 +145,23 @@
     \label{fig:bloom_visualisation}
     \end{figure}
 
-    
+    \begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.48\textwidth]{images/nvshu.drawio.pdf}
+    \caption{N\"{u}shu Knowledge Graph Structure}
+    \label{fig:nvshu_kg_structure}
+    \end{figure}
 
 \subsection{Base Large Language Model: DeepSeek-R1 1.5B}
 \label{ssec:deepseek_model}
     The generative backbone of the system is the DeepSeek-R1-Distill-Qwen-1.5B model, a state-of-the-art large language model engineered for robust reasoning and factual consistency. Pre-trained on a diverse, multilingual corpus and further distilled for computational efficiency, DeepSeek-R1 is well-suited for integration with retrieval-augmented frameworks. In this work, the model undergoes domain adaptation via Low-Rank Adaptation (LoRA), which introduces trainable low-rank matrices while keeping the majority of parameters frozen. This approach enables efficient fine-tuning on N"{u}shu-specific data, ensuring that the model generates context-aware, culturally informed, and factually accurate responses. The synergy between DeepSeek-R1's generalization capabilities and LoRA-based specialization is critical for addressing the challenges posed by low-resource, domain-specific tasks.
     
-
+    \begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.48\textwidth]{images/Lora.png}
+    \caption{Low-Rank Adaptation (LoRA) Mechanism for Efficient Fine-Tuning}
+    \label{fig:lora_mechanism}
+    \end{figure}
 
 
 

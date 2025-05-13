@@ -564,6 +564,12 @@ INPUT images/nvshu_system.drawio.pdf
 INPUT ./images/bloom-visualisation.png
 INPUT ./images/bloom-visualisation.png
 INPUT images/bloom-visualisation.png
+INPUT ./images/nvshu.drawio.pdf
+INPUT ./images/nvshu.drawio.pdf
+INPUT images/nvshu.drawio.pdf
+INPUT ./images/Lora.png
+INPUT ./images/Lora.png
+INPUT images/Lora.png
 INPUT ./Report_DLNLP_25_SN24076607.bbl
 INPUT Report_DLNLP_25_SN24076607.bbl
 INPUT ./Report_DLNLP_25_SN24076607.bbl
