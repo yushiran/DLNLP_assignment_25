@@ -6,6 +6,7 @@
 \usepackage{courier}
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{float}
 % Title.
 % ------
 \title{Deep Learning for Natural Language Processing (ELEC0141) 25 report}
@@ -37,6 +38,13 @@
 \section{Introduction}
 \label{sec:intro}
     The preservation and analysis of endangered writing systems present significant challenges in digital humanities and computational linguistics. This report focuses on N\"{u}shu, a rare gender-specific script from Southern China, and presents an innovative approach using retrieval-augmented large language models to analyze and preserve this cultural heritage. Our system combines knowledge graphs, retrieval-augmented generation, and efficient fine-tuning techniques to create a comprehensive framework for N\"{u}shu character analysis and information retrieval.
+    
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/nvshu_agent_logo.png}
+    \caption{N\"{u}shu Agent System}
+    \label{fig:nvshu_agent_logo}
+    \end{figure}
     
 \subsection{N\"{u}shu: A Unique Gender-Specific Writing System}
 \label{ssec:nushu}
@@ -71,11 +79,19 @@
 \label{ssec:nushu_dh}
     N\"{u}shu script has evolved from a nearly forgotten feminine writing system to an important subject of scholarly research and digital preservation efforts. Early documentation of N\"{u}shu can be traced back to coins from the Taiping Heavenly Kingdom period (Qing Dynasty, Xianfeng era), but systematic research began much later. The formal academic discovery of N\"{u}shu is credited to Professor Gong Zhebing of Wuhan University in 1982, which sparked international interest in this unique gender-specific script \cite{zhao2005nushu}.
     Traditional N\"{u}shu research has centered around character documentation, linguistic analysis, and cultural preservation. Chen's \textit{Nu Han Zi Dian} (N\"{u}shu-Chinese Character Dictionary) represents a seminal work in this field, cataloging over 3,400 characters with detailed annotations on their form, pronunciation, and semantic relationships to standard Chinese characters \cite{chen2006nuhanzi}. Similarly, Zhao's comprehensive compilation \textit{Collected Works of Chinese N\"{u}shu} provides access to over 652 manuscripts covering approximately 90\% of all extant N\"{u}shu materials \cite{zhao2005nushu}. Zhang's comparative study of N\"{u}shu characters further advanced the field by systematically analyzing character variations and evolution \cite{zhang2006nushu}.
+    
     \begin{figure}[htb]
     \centering
     \includegraphics[width=0.48\textwidth]{images/AI_in_nvshu.png}
     \caption{The Nüshu writing of “Artificial Intelligence”}
     \label{fig:ai_in_nvshu}
+    \end{figure}
+
+    \begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.48\textwidth]{images/nushu_fan.jpg}
+    \caption{A traditional N\"{u}shu fan with inscriptions}
+    \label{fig:nushu_fan}
     \end{figure}
     % Standardization efforts have emerged with two major systems gaining prominence: Gong and Tang's \textit{N\"{u}shu Standard Character Dictionary} (4,200 characters) and Zhao and Xu's \textit{N\"{u}shu Normative Character Calligraphy Collection} (1,760 characters), which became the basis for Unicode standardization in 2017 with 396 N\"{u}shu characters. However, this covers only approximately 20\% of the known characters, highlighting the need for more comprehensive computational frameworks.
 
@@ -92,6 +108,14 @@
     
     The evolution of RAG systems has moved beyond simple document retrieval to incorporate structured knowledge representations. Contemporary approaches demonstrate superior performance in handling complex queries about specialized domains by combining dense vector retrieval with graph traversal methods. This hybrid approach allows for both semantic similarity matching and relationship-based information retrieval, addressing the multifaceted nature of queries about cultural writing systems like N\"{u}shu. Our system builds upon these advances, leveraging both embedding-based similarity search and graph relationship patterns to provide comprehensive information about N\"{u}shu characters and their cultural context.
 
+    \begin{figure*}[htb]
+    \centering
+    \includegraphics[width=\textwidth]{images/nvshu_system.drawio.pdf}
+    \caption{System Architecture for N\"{u}shu Character Analysis and Retrieval}
+    \label{fig:nvshu_system_architecture}
+    \end{figure*}
+
+
 \subsection{Large Language Models and Domain Adaptation Techniques}
 \label{ssec:llm_lora}
     The rapid development of large language models (LLMs) has significantly advanced natural language understanding and generation across a wide range of domains. Models such as Qwen and DeepSeek-R1 have demonstrated strong generalization abilities and reasoning skills, benefiting from large-scale pre-training on diverse corpora \cite{baiQwenTechnicalReport2023, deepseek-aiDeepSeekR1IncentivizingReasoning2025}. However, when applied to specialized or low-resource domains like N"{u}shu, these models often face challenges due to limited domain-specific data and unique linguistic characteristics.
@@ -104,21 +128,28 @@
 
 \section{Description of models}
 \label{sec:models}
-    In this section, you should briefly describe the model you are using for each task, along with the rationale. You may opt to use a single learning algorithm to solve the problem or multiple ones, but bear in mind there are page limitations and that you should explain your rationale behind your choices. That is, the algorithmic description must detail your reasons for selecting a particular model.
-    
-    You can clarify them with flow charts, figures or equations. An example of how to draw an image is demonstrated in Fig. \ref{fig:roberts_building}.
+    This section details the architecture and rationale behind each core component of our N\"{u}shu character retrieval-augmented agent. 
     
 \subsection{System Overview and Pipeline}
 \label{ssec:system_overview}
-    Our N"{u}shu character retrieval-augmented agent is designed as a modular pipeline that integrates knowledge representation, retrieval, and generation components. The system workflow begins with user queries, which are first processed and analyzed for intent. Relevant entities and relationships are then retrieved from the Neo4j-based knowledge graph using both semantic similarity and graph traversal techniques. The retrieved knowledge is passed to a retrieval-augmented generation (RAG) module, which combines this structured information with the generative capabilities of a fine-tuned DeepSeek-R1-Distill model. This pipeline ensures that responses are both contextually accurate and grounded in domain-specific knowledge, effectively bridging the gap between symbolic reasoning and neural language generation.
+    The overall system is architected as a modular pipeline that seamlessly integrates symbolic knowledge representation, efficient retrieval, and neural language generation. Upon receiving a user query, the system first performs intent analysis and entity recognition. It then queries the Neo4j-based knowledge graph using both semantic similarity search and graph traversal algorithms to extract relevant entities and relationships. The retrieved knowledge is subsequently fed into a retrieval-augmented generation (RAG) module, which synthesizes this structured information with the generative capabilities of a LoRA-adapted DeepSeek-R1-Distill model. This design ensures that generated responses are not only contextually relevant but also grounded in verifiable, domain-specific knowledge, thereby minimizing hallucination and enhancing factual accuracy. The modularity of the pipeline facilitates extensibility and robust performance across diverse query types.
 
-\subsection{Knowledge Graph Structure}
+\subsection{Knowledge Graph Structure based on Neo4j}
 \label{ssec:kg_structure}
-    The core of our system is a Neo4j-based knowledge graph that encodes the multifaceted relationships among N"{u}shu characters. Each node in the graph represents a character and is annotated with attributes such as pronunciation, meaning, visual features, and historical context. Edges capture relationships including phonetic similarity, semantic equivalence, variant forms, and cultural associations. The schema is designed to support flexible queries, enabling both direct lookups and complex traversals (e.g., finding all characters with similar meanings or tracing the evolution of a character). This structured representation not only facilitates efficient retrieval but also supports downstream tasks such as visualization and statistical analysis of the script's internal structure.
+    At the core of the system lies a Neo4j-based knowledge graph meticulously constructed to capture the multifaceted relationships among N"{u}shu characters. Each node represents a unique character and is annotated with rich attributes, including standardized Unicode, pronunciation, semantic meaning, visual descriptors, and historical metadata. Edges encode diverse relationships such as phonetic similarity, semantic equivalence, variant forms, and cultural associations, enabling the modeling of both direct and indirect connections. The schema is optimized for flexible and efficient querying, supporting both attribute-based lookups and complex multi-hop traversals (e.g., discovering all characters sharing a phonetic root or tracing the evolution of a character across manuscripts). This structured representation not only underpins high-precision retrieval but also enables advanced analyses, such as network visualization and statistical exploration of the script's internal structure.
 
-\subsection{DeepSeek-R1 Model}
+    \begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.48\textwidth]{images/bloom-visualisation.png}
+    \caption{Visualization of Bloom's Taxonomy in the Context of N\"{u}shu Knowledge Representation}
+    \label{fig:bloom_visualisation}
+    \end{figure}
+
+    
+
+\subsection{Base Large Language Model: DeepSeek-R1 1.5B}
 \label{ssec:deepseek_model}
-    For the generative component, we employ the DeepSeek-R1-Distill-Qwen-1.5B model, a compact yet powerful large language model optimized for reasoning and factual accuracy. DeepSeek-R1 is pre-trained on a diverse multilingual corpus and further distilled for efficiency, making it suitable for integration with retrieval-augmented frameworks. In our system, the model is further adapted to the N"{u}shu domain using LoRA fine-tuning, allowing it to generate context-aware and culturally informed responses. The combination of DeepSeek-R1's strong generalization ability and domain-specific adaptation ensures high-quality outputs even for complex or low-resource queries.
+    The generative backbone of the system is the DeepSeek-R1-Distill-Qwen-1.5B model, a state-of-the-art large language model engineered for robust reasoning and factual consistency. Pre-trained on a diverse, multilingual corpus and further distilled for computational efficiency, DeepSeek-R1 is well-suited for integration with retrieval-augmented frameworks. In this work, the model undergoes domain adaptation via Low-Rank Adaptation (LoRA), which introduces trainable low-rank matrices while keeping the majority of parameters frozen. This approach enables efficient fine-tuning on N"{u}shu-specific data, ensuring that the model generates context-aware, culturally informed, and factually accurate responses. The synergy between DeepSeek-R1's generalization capabilities and LoRA-based specialization is critical for addressing the challenges posed by low-resource, domain-specific tasks.
     
 
 

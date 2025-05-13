@@ -7,6 +7,11 @@
 
 This repository contains a comprehensive system for Nüshu character recognition, analysis, and retrieval using advanced NLP techniques, knowledge graphs, and fine-tuned language models.
 
+<!-- ![Nüshu Agent Logo](latex/images/nvshu_agent_logo.png) -->
+
+![Nüshu System Overview](latex/images/nvshu_system_drawio.svg)
+
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
