@@ -541,9 +541,6 @@ OUTPUT Report_DLNLP_25_SN24076607.xdv
 INPUT ./images/AI_in_nvshu.png
 INPUT ./images/AI_in_nvshu.png
 INPUT images/AI_in_nvshu.png
-INPUT ./images/Roberts_building.jpg
-INPUT ./images/Roberts_building.jpg
-INPUT images/Roberts_building.jpg
 INPUT ./Report_DLNLP_25_SN24076607.bbl
 INPUT Report_DLNLP_25_SN24076607.bbl
 INPUT ./Report_DLNLP_25_SN24076607.bbl

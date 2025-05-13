@@ -108,22 +108,33 @@
     
     You can clarify them with flow charts, figures or equations. An example of how to draw an image is demonstrated in Fig. \ref{fig:roberts_building}.
     
-    \begin{figure}[htb]
-    \centering
-    \includegraphics[width=0.48\textwidth]{images/Roberts_building.jpg}
-    \caption{A nice view of Roberts Building}
-    \label{fig:roberts_building}
-    \end{figure}
-    
-    \subsection{Task A: the task name}
-    \label{ssec:desc_models_A1}
-    Hello world!
-    \subsection{Task B: the task name}
-    \label{ssec:desc_models_B}
-    Hello world!
-    ...
+\subsection{System Overview and Pipeline}
+\label{ssec:system_overview}
+    Our N"{u}shu character retrieval-augmented agent is designed as a modular pipeline that integrates knowledge representation, retrieval, and generation components. The system workflow begins with user queries, which are first processed and analyzed for intent. Relevant entities and relationships are then retrieved from the Neo4j-based knowledge graph using both semantic similarity and graph traversal techniques. The retrieved knowledge is passed to a retrieval-augmented generation (RAG) module, which combines this structured information with the generative capabilities of a fine-tuned DeepSeek-R1-Distill model. This pipeline ensures that responses are both contextually accurate and grounded in domain-specific knowledge, effectively bridging the gap between symbolic reasoning and neural language generation.
+
+\subsection{Knowledge Graph Structure}
+\label{ssec:kg_structure}
+    The core of our system is a Neo4j-based knowledge graph that encodes the multifaceted relationships among N"{u}shu characters. Each node in the graph represents a character and is annotated with attributes such as pronunciation, meaning, visual features, and historical context. Edges capture relationships including phonetic similarity, semantic equivalence, variant forms, and cultural associations. The schema is designed to support flexible queries, enabling both direct lookups and complex traversals (e.g., finding all characters with similar meanings or tracing the evolution of a character). This structured representation not only facilitates efficient retrieval but also supports downstream tasks such as visualization and statistical analysis of the script's internal structure.
+
+\subsection{DeepSeek-R1 Model}
+\label{ssec:deepseek_model}
+    For the generative component, we employ the DeepSeek-R1-Distill-Qwen-1.5B model, a compact yet powerful large language model optimized for reasoning and factual accuracy. DeepSeek-R1 is pre-trained on a diverse multilingual corpus and further distilled for efficiency, making it suitable for integration with retrieval-augmented frameworks. In our system, the model is further adapted to the N"{u}shu domain using LoRA fine-tuning, allowing it to generate context-aware and culturally informed responses. The combination of DeepSeek-R1's strong generalization ability and domain-specific adaptation ensures high-quality outputs even for complex or low-resource queries.
     
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 \section{Implementation}
 \label{sec:impl}
     This section must provide the detailed implementation of your models. In particular, you must provide the name and use of external libraries, explain hyper-parameter selection, training pipeline (if any) and key modules/classes/functions/algorithms.
