@@ -143,8 +143,7 @@ As shown in data/raw/data.csv
    ```bash
    python src/add_vector_index_to_kg.py
    ```
-
-![Embedding Visualization](latex/images/embedding.png)
+   <img src="latex/images/embedding.png" alt="Embedding Visualization" width="50%">
 
 The knowledge graph structure includes:
 - Nüshu character nodes
