@@ -16,14 +16,16 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand*\HyPL@Entry[1]{}
 \citation{chen2006nuhanzi}
+\citation{hoganKnowledgeGraphs2022}
 \HyPL@Entry{0<</S/D>>}
 \@writefile{toc}{\contentsline {section}{\numberline {1} Introduction}{1}{section.1}\protected@file@percent }
 \newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces N\"{u}shu Agent System}}{1}{figure.1}\protected@file@percent }
-\newlabel{fig:nvshu_agent_logo}{{1}{1}{N\"{u}shu Agent System}{figure.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1} N\"{u}shu: A Unique Gender-Specific Writing System}{1}{subsection.1.1}\protected@file@percent }
 \newlabel{ssec:nushu}{{1.1}{1}{N\"{u}shu: A Unique Gender-Specific Writing System}{subsection.1.1}{}}
-\citation{hoganKnowledgeGraphs2022}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces N\"{u}shu Agent System}}{1}{figure.1}\protected@file@percent }
+\newlabel{fig:nvshu_agent_logo}{{1}{1}{N\"{u}shu Agent System}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2} Knowledge Graph Construction for Character Relationships}{1}{subsection.1.2}\protected@file@percent }
+\newlabel{ssec:kg_intro}{{1.2}{1}{Knowledge Graph Construction for Character Relationships}{subsection.1.2}{}}
 \citation{gaoRetrievalAugmentedGenerationLarge2024}
 \citation{deepseek-aiDeepSeekR1IncentivizingReasoning2025}
 \citation{huLoRALowRankAdaptation2021}
@@ -33,8 +35,6 @@
 \citation{zhang2006nushu}
 \citation{mitricAIComputerVision2024}
 \citation{harisantyculturalheritagepreservation2024}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2} Knowledge Graph Construction for Character Relationships}{2}{subsection.1.2}\protected@file@percent }
-\newlabel{ssec:kg_intro}{{1.2}{2}{Knowledge Graph Construction for Character Relationships}{subsection.1.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3} Retrieval-Augmented Generation (RAG)}{2}{subsection.1.3}\protected@file@percent }
 \newlabel{ssec:rag_intro}{{1.3}{2}{Retrieval-Augmented Generation (RAG)}{subsection.1.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.4} DeepSeek-R1-Distill Language Models}{2}{subsection.1.4}\protected@file@percent }
@@ -45,58 +45,89 @@
 \newlabel{sec:lite}{{2}{2}{Literature survey}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1} N\"{u}shu Research and Digital Humanities}{2}{subsection.2.1}\protected@file@percent }
 \newlabel{ssec:nushu_dh}{{2.1}{2}{N\"{u}shu Research and Digital Humanities}{subsection.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The Nüshu writing of “Artificial Intelligence”}}{2}{figure.2}\protected@file@percent }
+\newlabel{fig:ai_in_nvshu}{{2}{2}{The Nüshu writing of “Artificial Intelligence”}{figure.2}{}}
 \citation{carrieroArCoItalianCultural2019}
 \citation{douKnowledgeGraphBased2018}
 \citation{gaoRetrievalAugmentedGenerationLarge2024}
 \citation{baiQwenTechnicalReport2023}
 \citation{deepseek-aiDeepSeekR1IncentivizingReasoning2025}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The Nüshu writing of “Artificial Intelligence”}}{3}{figure.2}\protected@file@percent }
-\newlabel{fig:ai_in_nvshu}{{2}{3}{The Nüshu writing of “Artificial Intelligence”}{figure.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces A traditional N\"{u}shu fan with inscriptions}}{3}{figure.3}\protected@file@percent }
-\newlabel{fig:nushu_fan}{{3}{3}{A traditional N\"{u}shu fan with inscriptions}{figure.3}{}}
+\citation{huLoRALowRankAdaptation2021}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2} Knowledge Representation and Retrieval-Augmented Generation}{3}{subsection.2.2}\protected@file@percent }
 \newlabel{ssec:kg_rag}{{2.2}{3}{Knowledge Representation and Retrieval-Augmented Generation}{subsection.2.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3} Large Language Models and Domain Adaptation Techniques}{3}{subsection.2.3}\protected@file@percent }
 \newlabel{ssec:llm_lora}{{2.3}{3}{Large Language Models and Domain Adaptation Techniques}{subsection.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3} Description of models}{3}{section.3}\protected@file@percent }
+\newlabel{sec:models}{{3}{3}{Description of models}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1} System Overview and Pipeline}{3}{subsection.3.1}\protected@file@percent }
+\newlabel{ssec:system_overview}{{3.1}{3}{System Overview and Pipeline}{subsection.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2} Knowledge Graph Structure based on Neo4j}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{ssec:kg_structure}{{3.2}{3}{Knowledge Graph Structure based on Neo4j}{subsection.3.2}{}}
+\citation{deepseek-aiDeepSeekR1IncentivizingReasoning2025}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces System Architecture for N\"{u}shu Character Analysis and Retrieval}}{4}{figure.3}\protected@file@percent }
+\newlabel{fig:nvshu_system_architecture}{{3}{4}{System Architecture for N\"{u}shu Character Analysis and Retrieval}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3} Base Large Language Model: DeepSeek-R1 1.5B}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{ssec:deepseek_model}{{3.3}{4}{Base Large Language Model: DeepSeek-R1 1.5B}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4} Implementation}{4}{section.4}\protected@file@percent }
+\newlabel{sec:impl}{{4}{4}{Implementation}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1} N\"{u}Shu Knowledge Graph Database Construction}{4}{subsection.4.1}\protected@file@percent }
+\newlabel{ssec:kg_construction}{{4.1}{4}{N\"{u}Shu Knowledge Graph Database Construction}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1} Data Sources and Processing Pipeline}{4}{subsubsection.4.1.1}\protected@file@percent }
 \citation{huLoRALowRankAdaptation2021}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces System Architecture for N\"{u}shu Character Analysis and Retrieval}}{4}{figure.4}\protected@file@percent }
-\newlabel{fig:nvshu_system_architecture}{{4}{4}{System Architecture for N\"{u}shu Character Analysis and Retrieval}{figure.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3} Description of models}{4}{section.3}\protected@file@percent }
-\newlabel{sec:models}{{3}{4}{Description of models}{section.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1} System Overview and Pipeline}{4}{subsection.3.1}\protected@file@percent }
-\newlabel{ssec:system_overview}{{3.1}{4}{System Overview and Pipeline}{subsection.3.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2} Knowledge Graph Structure based on Neo4j}{5}{subsection.3.2}\protected@file@percent }
-\newlabel{ssec:kg_structure}{{3.2}{5}{Knowledge Graph Structure based on Neo4j}{subsection.3.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Distilled Model Evaluation}}{5}{table.1}\protected@file@percent }
+\newlabel{tab:distilled-model-evaluation}{{1}{5}{Distilled Model Evaluation}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces N\"{u}shu Knowledge Graph Structure}}{5}{figure.4}\protected@file@percent }
+\newlabel{fig:nvshu_kg_structure}{{4}{5}{N\"{u}shu Knowledge Graph Structure}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2} Vector Embeddings for Semantic Search}{5}{subsubsection.4.1.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Visualization of Bloom's Taxonomy in the Context of N\"{u}shu Knowledge Representation}}{5}{figure.5}\protected@file@percent }
 \newlabel{fig:bloom_visualisation}{{5}{5}{Visualization of Bloom's Taxonomy in the Context of N\"{u}shu Knowledge Representation}{figure.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces N\"{u}shu Knowledge Graph Structure}}{5}{figure.6}\protected@file@percent }
-\newlabel{fig:nvshu_kg_structure}{{6}{5}{N\"{u}shu Knowledge Graph Structure}{figure.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3} Base Large Language Model: DeepSeek-R1 1.5B}{5}{subsection.3.3}\protected@file@percent }
-\newlabel{ssec:deepseek_model}{{3.3}{5}{Base Large Language Model: DeepSeek-R1 1.5B}{subsection.3.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Low-Rank Adaptation (LoRA) Mechanism for Efficient Fine-Tuning}}{5}{figure.7}\protected@file@percent }
-\newlabel{fig:lora_mechanism}{{7}{5}{Low-Rank Adaptation (LoRA) Mechanism for Efficient Fine-Tuning}{figure.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4} Implementation}{5}{section.4}\protected@file@percent }
-\newlabel{sec:impl}{{4}{5}{Implementation}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2} Nvshu Finetuned Model Using LoRA}{5}{subsection.4.2}\protected@file@percent }
+\newlabel{ssec:nvshu_lora}{{4.2}{5}{Nvshu Finetuned Model Using LoRA}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1} Dataset Preparation}{5}{subsubsection.4.2.1}\protected@file@percent }
+\newlabel{sssec:dataset_preparation}{{4.2.1}{5}{Dataset Preparation}{subsubsection.4.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2} Training Method}{6}{subsubsection.4.2.2}\protected@file@percent }
+\newlabel{sssec:lora_training}{{4.2.2}{6}{Training Method}{subsubsection.4.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Low-Rank Adaptation (LoRA) Mechanism for Efficient Fine-Tuning}}{6}{figure.6}\protected@file@percent }
+\newlabel{fig:lora_mechanism}{{6}{6}{Low-Rank Adaptation (LoRA) Mechanism for Efficient Fine-Tuning}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3} LoRA Training Process}{6}{subsubsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3} Retrieval-Augmented Generation (RAG) System}{6}{subsection.4.3}\protected@file@percent }
+\newlabel{ssec:rag_system}{{4.3}{6}{Retrieval-Augmented Generation (RAG) System}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1} Query Processing Pipeline}{6}{subsubsection.4.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Validation Loss Curve for Nvshu Fine-tuned Model}}{7}{figure.7}\protected@file@percent }
+\newlabel{fig:loss_curve}{{7}{7}{Validation Loss Curve for Nvshu Fine-tuned Model}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2} Hybrid Retrieval Strategy}{7}{subsubsection.4.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3} Context Integration and Generation}{7}{subsubsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4} User Interface Design for the Agent System}{7}{subsection.4.4}\protected@file@percent }
+\newlabel{ssec:ui_design}{{4.4}{7}{User Interface Design for the Agent System}{subsection.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5} Experimental Results and Analysis}{7}{section.5}\protected@file@percent }
+\newlabel{sec:results}{{5}{7}{Experimental Results and Analysis}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1} Evaluation Metrics}{7}{subsection.5.1}\protected@file@percent }
+\newlabel{ssec:eval_metrics}{{5.1}{7}{Evaluation Metrics}{subsection.5.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1} Character Accuracy}{7}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2} ROUGE Metrics}{7}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Retrieval-Augmented Generation System for N\"{u}shu Analysis}}{8}{figure.8}\protected@file@percent }
+\newlabel{fig:nvshu_rag_system}{{8}{8}{Retrieval-Augmented Generation System for N\"{u}shu Analysis}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Streamlit-based User Interface for N\"{u}shu Agent System showing the chat interface, model configuration options, and information sidebar}}{8}{figure.9}\protected@file@percent }
+\newlabel{fig:streamlit_ui}{{9}{8}{Streamlit-based User Interface for N\"{u}shu Agent System showing the chat interface, model configuration options, and information sidebar}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2} Model Performance Analysis}{8}{subsection.5.2}\protected@file@percent }
+\newlabel{ssec:perf_analysis}{{5.2}{8}{Model Performance Analysis}{subsection.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Comparison of Metrics Across Different Models}}{9}{figure.10}\protected@file@percent }
+\newlabel{fig:metrics_comparison}{{10}{9}{Comparison of Metrics Across Different Models}{figure.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6} Conclusion}{9}{section.6}\protected@file@percent }
+\newlabel{sec:conc}{{6}{9}{Conclusion}{section.6}{}}
 \bibstyle{IEEEbib}
 \bibdata{refs}
 \bibcite{chen2006nuhanzi}{1}
 \bibcite{hoganKnowledgeGraphs2022}{2}
 \bibcite{gaoRetrievalAugmentedGenerationLarge2024}{3}
 \bibcite{deepseek-aiDeepSeekR1IncentivizingReasoning2025}{4}
-\newlabel{table:Table1}{{5}{6}{Experimental Results and Analysis}{section.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5} Experimental Results and Analysis}{6}{section.5}\protected@file@percent }
-\newlabel{sec:results}{{5}{6}{Experimental Results and Analysis}{section.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6} Conclusion}{6}{section.6}\protected@file@percent }
-\newlabel{sec:conc}{{6}{6}{Conclusion}{section.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7} References}{6}{section.7}\protected@file@percent }
 \bibcite{huLoRALowRankAdaptation2021}{5}
 \bibcite{zhao2005nushu}{6}
 \bibcite{zhang2006nushu}{7}
 \bibcite{mitricAIComputerVision2024}{8}
 \bibcite{harisantyculturalheritagepreservation2024}{9}
+\@writefile{toc}{\contentsline {section}{\numberline {7} References}{10}{section.7}\protected@file@percent }
 \bibcite{carrieroArCoItalianCultural2019}{10}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Retrieval-Augmented Generation System for N\"{u}shu Analysis}}{7}{figure.8}\protected@file@percent }
-\newlabel{fig:nvshu_rag_system}{{8}{7}{Retrieval-Augmented Generation System for N\"{u}shu Analysis}{figure.8}{}}
 \bibcite{douKnowledgeGraphBased2018}{11}
 \bibcite{baiQwenTechnicalReport2023}{12}
-\gdef \@abspage@last{8}
+\gdef \@abspage@last{11}
