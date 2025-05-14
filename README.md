@@ -153,23 +153,6 @@ The knowledge graph structure includes:
 - Visual similarity connections
 - Historical context
 
-## RAG System Implementation
-
-The RAG (Retrieval Augmented Generation) system combines the Neo4j knowledge graph with the DeepSeek model:
-
-1. **Start the RAG Interface**:
-   ```bash
-   streamlit run src/deploy_rag_with_deepseek.py
-   ```
-
-This launches a Streamlit interface that:
-1. Accepts user queries about Nüshu characters
-2. Retrieves relevant information from the knowledge graph
-3. Augments the LLM's response with this contextual information
-4. Returns comprehensive and accurate information about Nüshu characters
-
-![Streamlit Interface](latex/images/streamlit.png)
-
 ## Model Fine-tuning
 
 ### LoRA Dataset Generation
@@ -208,3 +191,21 @@ Evaluation results are stored in the `evaluation_results/` directory:
 - `metrics_summary.csv`: Summary of performance metrics
 - `prediction_results.csv`: Detailed prediction results
 - `metrics_comparison.png`: Visualization of model comparisons
+
+
+## RAG System Implementation
+
+The RAG (Retrieval Augmented Generation) system combines the Neo4j knowledge graph with the DeepSeek model:
+
+1. **Start the RAG Interface**:
+   ```bash
+   streamlit run src/deploy_rag_with_deepseek.py
+   ```
+
+This launches a Streamlit interface that:
+1. Accepts user queries about Nüshu characters
+2. Retrieves relevant information from the knowledge graph
+3. Augments the LLM's response with this contextual information
+4. Returns comprehensive and accurate information about Nüshu characters
+
+![Streamlit Interface](latex/images/streamlit.png)
