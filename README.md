@@ -35,9 +35,10 @@ The dataset used in this project originates from the [![Data Source](https://img
 1. **Knowledge Graph Database**: A Neo4j-based knowledge graph storing Nüshu characters and their relationships
 ![Knowledge Graph Construction](latex/images/neo4j.gif)
 2. **Retrieval-Augmented Generation (RAG)**: Using the DeepSeek and Qwen models with the knowledge graph
-![RAG System Implementation](latex/images/RAG.gif)
+![Nüshu System RAG Overview](latex/images/nvshu_ragsystem.drawio.svg)
 3. **LoRA Fine-tuned Models**: Specialized models for Nüshu character recognition and analysis
 ![Model on Hugging Face](https://img.shields.io/badge/Hugging%20Face-nvshu_lora-blue?logo=huggingface&style=flat-square)
+![RAG System Implementation](latex/images/RAG.gif)
 
 4. **Evaluation Framework**: Compare performance of different approaches
 ![Evaluation Results Comparison](evaluation_results/metrics_comparison.png)
