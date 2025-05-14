@@ -199,7 +199,7 @@ The RAG (Retrieval Augmented Generation) system combines the Neo4j knowledge gra
 
 1. **Start the RAG Interface**:
    ```bash
-   streamlit run src/deploy_rag_with_deepseek.py
+   streamlit run main.py
    ```
 
 This launches a Streamlit interface that:

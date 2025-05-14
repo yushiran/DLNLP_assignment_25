@@ -17,14 +17,17 @@ from langchain.schema.output_parser import StrOutputParser
 from langchain_openai import OpenAIEmbeddings
 from langchain_huggingface import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from utils import gpt4o_search
 import torch
 import time
 import urllib.parse
 import locale
 import unicodedata
 from dotenv import load_dotenv
-from utils.unicode_helpers import process_nushu_text, ensure_proper_encoding, remove_repetitive_content
+
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from src.utils.unicode_helpers import process_nushu_text, ensure_proper_encoding, remove_repetitive_content
+from src.utils import gpt4o_search
 
 load_dotenv()
 neo4j_uri = os.getenv("NEO4J_URI")

@@ -1,6 +1,6 @@
 from src import create_knowledge_graph, add_vector_index_to_kg, deploy_rag_with_deepseek
-from src.utils import translator
-from src.utils import add_font_toCSV
+# from src.utils import translator
+# from src.utils import add_font_toCSV
 import pandas as pd
 import os
 from neo4j import GraphDatabase

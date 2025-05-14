@@ -6,9 +6,11 @@ import pandas as pd
 import os
 from neo4j import GraphDatabase
 import logging
-from utils import translator
 from dotenv import load_dotenv
 load_dotenv()
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from src.utils import translator
 
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 
