@@ -570,6 +570,9 @@ INPUT images/nvshu.drawio.pdf
 INPUT ./images/Lora.png
 INPUT ./images/Lora.png
 INPUT images/Lora.png
+INPUT ./images/nvshu_system_rag.drawio.pdf
+INPUT ./images/nvshu_system_rag.drawio.pdf
+INPUT images/nvshu_system_rag.drawio.pdf
 INPUT ./Report_DLNLP_25_SN24076607.bbl
 INPUT Report_DLNLP_25_SN24076607.bbl
 INPUT ./Report_DLNLP_25_SN24076607.bbl
