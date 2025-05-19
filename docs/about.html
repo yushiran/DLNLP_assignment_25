@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Nüshu Character Retrieval-Augmented LLM Agent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About the Nüshu Character Project</h1>
+            <p class="subtitle">Technical Details and Implementation</p>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="models.html">Models</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <h2>N\"{u}shu: A Unique Gender-Specific Writing System</h2>
+            <p>N\"{u}shu, meaning "women's writing," is a syllabic script from Jiangyong County, Hunan, China, created by women excluded from formal education. Originating around the 15th century, it features rhomboidal shapes and elongated strokes, with ~2,000 characters identified.</p>
+            
+            <p>Beyond its linguistic significance, N\"{u}shu represents extraordinary wisdom that emerged under conditions of cultural deprivation and systematic gender oppression, where women were denied formal educational opportunities. Studying this writing system offers valuable insights for contemporary society's advancement in equality, democracy, and diversity by demonstrating how marginalized groups develop alternative systems of knowledge preservation and cultural expression in the face of institutional barriers.</p>
+
+            <h2>Knowledge Graph Construction for Character Relationships</h2>
+            
+            <p>At the core of the system lies a Neo4j-based knowledge graph meticulously constructed to capture the multifaceted relationships among N"{u}shu characters. Each node represents a unique character and is annotated with rich attributes, including standardized Unicode, pronunciation, semantic meaning, visual descriptors, and historical metadata.</p>
+            
+            <p>Edges encode diverse relationships such as phonetic similarity, semantic equivalence, variant forms, and cultural associations, enabling the modeling of both direct and indirect connections. The schema is optimized for flexible and efficient querying, supporting both attribute-based lookups and complex multi-hop traversals (e.g., discovering all characters sharing a phonetic root or tracing the evolution of a character across manuscripts).</p>
+            
+            <div class="image-container">
+                <img src="../latex/images/nvshu.drawio.pdf" alt="Nüshu Knowledge Graph Structure" class="content-image">
+                <p class="caption">N\"{u}shu Knowledge Graph Structure</p>
+            </div>
+            
+            <h3>Data Sources and Processing Pipeline</h3>
+            
+            <p>The construction of the N\"{u}shu knowledge graph is grounded in a systematic extraction and integration of metadata from nushu-script community repository, which provides comprehensive character lists, Unicode mappings, phonetic annotations, semantic glosses.</p>
+            
+            <p>The data processing pipeline parses raw files, normalizes character attributes, and constructs nodes and edges in the Neo4j database. Each node represents a unique N\"{u}shu character with attributes like Unicode code point, pronunciation, meaning, and visual features, while edges capture relationships such as phonetic similarity, semantic equivalence, and historical variants.</p>
+            
+            <h3>Vector Embeddings for Semantic Search</h3>
+            
+            <p>To enhance the knowledge graph with advanced semantic search capabilities, we implemented vector embeddings for all node types. Using OpenAI's embedding model, we generated 1536-dimensional vector representations for each node, capturing the semantic essence of characters, translations, and pronunciations.</p>
+            
+            <p>The embedding process aggregates contextual information from connected nodes, enabling each embedding to represent not only the node's properties but also its relational context within the graph. These embeddings are stored directly in Neo4j's vector index, leveraging its built-in vector similarity search capabilities with cosine similarity as the distance metric.</p>
+            
+            <div class="image-container">
+                <img src="../latex/images/embedding.png" alt="Vector Embeddings" class="content-image">
+                <p class="caption">Vector embeddings visualization for N\"{u}shu characters</p>
+            </div>
+
+            <h2>Retrieval-Augmented Generation (RAG) System</h2>
+            
+            <p>Our RAG system combines neo4j-based knowledge retrieval with the DeepSeek-R1-Distill-Qwen-1.5B model to provide accurate and contextually appropriate responses about N\"{u}shu characters. The system follows a multi-step process:</p>
+            
+            <ol>
+                <li><strong>Query Analysis</strong>: Parsing and understanding the user's input to determine the information need</li>
+                <li><strong>Knowledge Graph Retrieval</strong>: Executing graph queries to retrieve relevant character information</li>
+                <li><strong>Context Formation</strong>: Structuring the retrieved data into a context format suitable for the language model</li>
+                <li><strong>Response Generation</strong>: Using the fine-tuned model to generate accurate responses based on the retrieved context</li>
+            </ol>
+            
+            <div class="image-container">
+                <img src="../latex/images/nvshu_system_rag.drawio.pdf" alt="RAG System Architecture" class="content-image">
+                <p class="caption">Retrieval-Augmented Generation System Architecture</p>
+            </div>
+            
+            <h2>Evaluation Results</h2>
+            
+            <p>We conducted a comprehensive evaluation of our system, comparing different model configurations and retrieval strategies. The evaluation metrics included:</p>
+            
+            <ul>
+                <li><strong>Accuracy</strong>: Correctness of character information provided</li>
+                <li><strong>ROUGE Scores</strong>: Measuring the quality of generated responses against reference answers</li>
+                <li><strong>Response Quality</strong>: Assessing the completeness and relevance of the generated responses</li>
+            </ul>
+            
+            <div class="image-container">
+                <img src="../evaluation_results/metrics_comparison.png" alt="Evaluation Results" class="content-image">
+                <p class="caption">Performance comparison of different model configurations</p>
+            </div>
+            
+            <p>The results demonstrate that our retrieval-augmented approach significantly outperforms baseline models, particularly in factual accuracy and completeness of responses. The LoRA fine-tuned model shows the best overall performance, indicating the effectiveness of domain-specific adaptation.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Nüshu Character Retrieval-Augmented LLM Agent. Project developed as part of DLNLP Assignment.</p>
+            <div class="footer-links">
+                <a href="https://github.com/your-username/nushu-agent" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://huggingface.co/ShiranYu/nvshu_lora" target="_blank"><i class="fas fa-brain"></i> Hugging Face</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

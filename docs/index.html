@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nüshu Character Retrieval-Augmented LLM Agent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nüshu Character Retrieval-Augmented Large Language Model Agent</h1>
+            <p class="subtitle">A system for analysis and preservation of Nüshu - a rare gender-specific script</p>
+            <div class="badges">
+                <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+                <img src="https://img.shields.io/badge/python-3.8%2B-brightgreen" alt="Python Version">
+                <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
+                <a href="https://huggingface.co/ShiranYu/nvshu_lora" target="_blank">
+                    <img src="https://img.shields.io/badge/🤗-Hugging%20Face%20Space-blue" alt="Hugging Face Space">
+                </a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="models.html">Models</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="../latex/images/nvshu_system_drawio.svg" alt="Nüshu System Overview" class="hero-image">
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <h2>Project Overview</h2>
+            <p>This project presents a novel retrieval-augmented large language model (LLM) agent for the analysis and preservation of Nüshu, a rare gender-specific script historically used exclusively by women in Jiangyong County, China.</p>
+            
+            <p>Nushu (𛆁𛈬, 女书) is a mysterious script used exclusively among women in Jiangyong County of Southern China. It is handed down by mother to daughter among the Han and Yao people from generation to generation in Jiangyong County and its adjacent areas, becoming a unique cultural phenomenon in human history. Nushu characters are rhomboidal in shape, slim in style and imaginative in the form. The total amount of the characters being discovered is up to two thousand, all of which contain solely four kinds of strokes – dotted, vertical, oblique and arcuate.</p>
+            
+            <div class="image-container">
+                <img src="../latex/images/AI_in_nvshu.png" alt="AI in Nüshu" class="content-image">
+                <p class="caption"><i>This image depicts the term "Artificial Intelligence" written in Nüshu script.</i></p>
+            </div>
+            
+            <p>For more information about Nüshu, visit the <a href="https://nushuscript.org/en-US/" target="_blank">Nüshu Script Official Website</a>.</p>
+
+            <h2>System Components</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Knowledge Graph Database</h3>
+                    <p>A Neo4j-based knowledge graph storing Nüshu characters and their relationships</p>
+                    <div class="image-container">
+                        <img src="../latex/images/neo4j.gif" alt="Knowledge Graph Construction" class="card-image">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Retrieval-Augmented Generation</h3>
+                    <p>Using DeepSeek and Qwen models with the knowledge graph for accurate responses</p>
+                    <div class="image-container">
+                        <img src="../latex/images/nvshu_ragsystem.drawio.svg" alt="RAG System" class="card-image">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>LoRA Fine-tuned Models</h3>
+                    <p>Specialized models for Nüshu character recognition and analysis</p>
+                    <div class="image-container">
+                        <img src="../latex/images/RAG.gif" alt="RAG Implementation" class="card-image">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Evaluation Framework</h3>
+                    <p>Compare performance of different approaches</p>
+                    <div class="image-container">
+                        <img src="../evaluation_results/metrics_comparison.png" alt="Evaluation Results" class="card-image">
+                    </div>
+                </div>
+            </div>
+
+            <h2>Technical Background</h2>
+            
+            <h3>Knowledge Graph Construction</h3>
+            <p>Knowledge graphs (KGs) provide a powerful framework for representing complex relationships between entities in structured ways. In our system, we constructed a Neo4j-based knowledge graph to capture the intricate relationships between Nüshu characters, their pronunciations, meanings, visual features, and historical context.</p>
+            <p>The knowledge graph allows for multi-dimensional queries and relationship traversals that would be difficult or impossible with traditional relational databases. This structured representation facilitates efficient information retrieval and enables discovery of non-obvious connections between characters, contributing to deeper understanding of the writing system's internal logic and evolution.</p>
+            
+            <h3>Retrieval-Augmented Generation (RAG)</h3>
+            <p>Retrieval-Augmented Generation (RAG) represents a significant advancement in improving the factual accuracy and domain specialization of large language models. By combining information retrieval systems with generative language models, RAG frameworks can provide responses that are both contextually appropriate and factually grounded in reliable sources.</p>
+            <p>For our Nüshu analysis system, the RAG approach is particularly valuable as it allows the integration of specialized knowledge from our constructed knowledge graph with the general linguistic capabilities of large language models. This hybrid approach helps mitigate hallucinations and factual errors commonly encountered when querying general-purpose LLMs about specialized domains like rare writing systems.</p>
+            
+            <h3>LoRA Fine-tuning for Domain Specialization</h3>
+            <p>Low-Rank Adaptation (LoRA) offers an efficient approach to fine-tuning large language models by freezing the pre-trained model weights and introducing trainable rank decomposition matrices into the Transformer architecture. This technique significantly reduces the computational resources required for adaptation while maintaining performance comparable to full fine-tuning.</p>
+            <p>For our Nüshu character analysis system, LoRA fine-tuning enabled us to specialize the DeepSeek model for the domain-specific vocabulary and relationships of Nüshu without requiring extensive computational resources. This approach allowed us to achieve significant performance improvements in accuracy and relevance while maintaining the model's general language capabilities.</p>
+
+            <div class="image-container">
+                <img src="../latex/images/loss_curve.png" alt="Validation Loss Curve" class="content-image">
+                <p class="caption">Validation Loss Curve for Nvshu Fine-tuned Model</p>
+            </div>
+
+            <h2>User Interface</h2>
+            <p>The user interface for our Nüshu Agent System was implemented using Streamlit for its rapid prototyping capabilities and Python-native environment. The interface features a chat-based interaction pattern familiar to users of modern AI assistants, with a central conversation area, model configuration options, and knowledge graph information display.</p>
+            
+            <div class="image-container">
+                <img src="../latex/images/streamlit.png" alt="Streamlit UI" class="content-image">
+                <p class="caption">Streamlit-based User Interface for Nüshu Agent System</p>
+            </div>
+            
+            <h2>Setup Instructions</h2>
+            <div class="code-container">
+                <pre><code># Clone the repository
+git clone https://github.com/your-username/nushu-agent.git
+cd nushu-agent
+
+# Create a virtual environment
+uv venv create
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Install dependencies
+uv pip install -e .
+
+# Set up your .env file with API keys and Neo4j credentials
+
+# Start the Streamlit interface
+streamlit run main.py</code></pre>
+            </div>
+            
+            <h2>Project Structure</h2>
+            <div class="code-container">
+                <pre><code>DLNLP_assignment_25/
+├── data/                           # Data files
+│   ├── processed/                  # Processed data files
+│   │   ├── data.csv                # Main processed dataset
+│   │   ├── lora_dataset/           # Dataset for LoRA fine-tuning
+│   │   │   └── nushu_lora_dataset.json
+│   ├── raw/                        # Raw data files
+│       └── nushu_font/             # Nüshu character images
+├── evaluation_results/             # Evaluation metrics and results
+├── latex/                          # LaTeX report files
+├── logs/                           # Training and fine-tuning logs
+├── model/                          # Model files and directories
+├── src/                            # Source code
+│   ├── add_vector_index_to_kg.py   # Adding vector indices to knowledge graph
+│   ├── create_knowledge_graph.py   # Knowledge graph creation
+│   ├── deploy_rag_with_deepseek.py # RAG deployment with DeepSeek
+│   ├── lora_finetune/              # LoRA fine-tuning scripts
+│   └── utils/                      # Utility scripts
+├── main.py                         # Main application entry point
+├── pyproject.toml                  # Project configuration
+└── uv.lock                         # UV dependency lock file</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Nüshu Character Retrieval-Augmented LLM Agent. Project developed as part of DLNLP Assignment.</p>
+            <div class="footer-links">
+                <a href="https://github.com/your-username/nushu-agent" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://huggingface.co/ShiranYu/nvshu_lora" target="_blank"><i class="fas fa-brain"></i> Hugging Face</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
