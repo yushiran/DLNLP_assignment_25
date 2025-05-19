@@ -132,7 +132,7 @@
                     <p>To specialize the base DeepSeek model for Nüshu analysis, we implemented Low-Rank Adaptation (LoRA) fine-tuning. This technique allows for efficient domain adaptation while preserving the model's general capabilities. The approach involved training only a small set of additional parameters while keeping the base model frozen.</p>
                     
                     <div class="image-container">
-                        <img src="../latex/images/Lora.png" alt="LoRA Mechanism" class="content-image">
+                        <img src="https://yushiran.github.io/picx-images-hosting/DNLP/Lora.2rvd35n8j2.webp" alt="LoRA Mechanism" class="content-image">
                         <p class="caption">Low-Rank Adaptation (LoRA) mechanism</p>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
             <p>The dataset consists of question-context-response triplets specifically designed for instruction fine-tuning, covering character identification, translation between Nüshu and Chinese characters, pronunciation guidance, and explanation of cultural significance.</p>
             
             <div class="image-container">
-                <img src="../latex/images/lora_dataset.png" alt="LoRA Dataset Examples" class="content-image">
+                <img src="https://yushiran.github.io/picx-images-hosting/DNLP/lora_dataset.5q7n6nvi0i.webp" alt="LoRA Dataset Examples" class="content-image">
                 <p class="caption">Example instances from the LoRA fine-tuning dataset</p>
             </div>
             
@@ -168,7 +168,7 @@
             <p>The LoRA approach reduced the number of trainable parameters from 1.5 billion to approximately 2.5 million, a reduction of over 99%, enabling efficient training on consumer-grade hardware. We trained the model for 3 epochs on our dataset, with a 90-10 train-validation split.</p>
             
             <div class="image-container">
-                <img src="../latex/images/loss_curve.png" alt="Validation Loss Curve" class="content-image">
+                <img src="https://yushiran.github.io/picx-images-hosting/DNLP/loss_curve.8z6r3bizn9.webp" alt="Validation Loss Curve" class="content-image">
                 <p class="caption">Validation Loss Curve for Nvshu Fine-tuned Model</p>
             </div>
         </div>
